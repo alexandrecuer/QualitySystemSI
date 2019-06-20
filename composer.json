@@ -1,0 +1,8 @@
+{
+    "name": "système qualité DLCF",
+    "description": "SI de docs ISO",
+    "type": "project",
+    "require": {
+    },
+    "license": "GNU AFFERO GENERAL PUBLIC LICENSE"
+}
