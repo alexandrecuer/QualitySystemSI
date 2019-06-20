@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="cofrac.xsl" type="text/xsl"?>
+<items>
+	<pro name="Suivi des documents COFRAC opposables" base="ROOT">
+		<port name="Document généraux de référence">
+			<doc titre="Statuts du COFRAC" version="#10 - 06/2017" link='GEN-REF-01'></doc>
+            <doc titre="Règlement intérieur du COFRAC" version="#05 - 06/2017" link='GEN-REF-02'></doc>
+            <doc titre="Règles générales pour la référence à l'accréditation et aux accords de reconnaissance internationaux" version="#07 - 11/2018" link='GEN-REF-11'></doc>
+		</port>
+        <port name="Procédures">
+			<doc titre="Suspensions, Résiliation et Retraits" version="#05 - 12/2017 " link='GEN-PROC-03'></doc>
+            <doc titre="Traitement et gestion des appels" version="#05 - 12/2016 " link='GEN-PROC-04'></doc>
+            <doc titre="Traitement et gestion des plaintes" version="#08 - 12/2017 " link='GEN-PROC-05'></doc>
+            <doc titre="Traitement de la confidentialité" version="#03 - 02/2008 " link='GEN-PROC-08'></doc>
+            <doc titre="Récusation" version="#05 - 09/2017 " link='GEN-PROC-09'></doc>
+            <doc titre="Situations à signaler au Cofrac et transfert d'accréditation" version="#02 - 06/2014 " link='GEN-PROC-20'></doc>
+		</port>
+        <port name="LABREF">
+            <doc titre="Réglement particulier de la section Laboratoires" version="#09 - 12/2015 " link='LAB-REF-00'></doc>
+            <doc titre="Exigences pour l'accréditation des laboratoires selon la norme NF EN ISO/IEC 17025:2017" version="#12 - 05/2018 " link='LAB-REF-02-(2017)'></doc>
+            <doc titre="Règlement de fonctionnement des commissions" version="#07 - 11/2018 " link='LAB-REF-03'></doc>
+            <doc titre="Règlement d'accréditation" version=" #10 - 03/2017 " link='LAB-REF-05'></doc>
+            <doc titre="Frais d'accréditation" version="#13 - 12/2017 " link='LAB-REF-06'></doc>
+            <doc titre="Tarifs" version="#16 - 12/2018 " link='LAB-REF-07'></doc>
+            <doc titre="Expression et évaluation des portées d'accréditation" version="#05 - 12/2018 " link='LAB-REF-08'></doc>
+        </port>
+	</pro>
+</items>
