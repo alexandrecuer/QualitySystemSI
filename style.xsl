@@ -16,7 +16,7 @@ td	{padding: 0px 0px 0px 0px;}
 							<xsl:for-each select="doc">
 								<tr>
 									<td bgcolor="orange"><xsl:value-of select="@ref" /></td>
-									<td bgcolor="#FFFCCC"><a href='http://gedoq7.cete-lyon.i2/ennov/cete69doc/document/ref/{@ref}'><xsl:value-of select="@titre" /></a></td>
+									<td bgcolor="#FFFCCC"><a href='http://gedoq7.cete-lyon.i2/ennov/cete69doc/document/ref/{@ref}/attachment'><xsl:value-of select="@titre" /></a></td>
 									<td bgcolor="#FFFCCC"><b><font color="green"><xsl:value-of select="@year" /></font></b></td>
 								</tr>
 							</xsl:for-each>
@@ -31,6 +31,7 @@ td	{padding: 0px 0px 0px 0px;}
 									<table border='0' cellspacing='1' bgcolor='black'>
 									<xsl:for-each select="doc">
 										<tr>
+                                            <xsl:if ref contains("P")><td><img src="ext/resources/s.gif" class="item-icon icon-event"></td></xsl:if>
 											<td bgcolor="orange"><xsl:value-of select="@ref" /></td>
 											<td bgcolor="#FFFCCC"><xsl:value-of select="@titre" /></td>
 											<td bgcolor="#FFFCCC"><b><font color="green"><xsl:value-of select="@year" /></font></b></td>
