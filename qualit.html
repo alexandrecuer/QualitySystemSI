@@ -28,9 +28,9 @@ $("#myselecta").on("change",function(){
 });
 console.log(year);
 var xhttp = new XMLHttpRequest(); 
-xhttp.open("GET", "docs.xml", true);
+xhttp.open("GET", "./docs.xml", true);
 xhttp.send();
-console.log(xhttp.responseXML);
+console.log(xhttp.responseText);
 
 </script>
 </body>
