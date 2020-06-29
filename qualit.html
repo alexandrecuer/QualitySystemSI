@@ -1,0 +1,37 @@
+<html>
+<head>
+	<base target="_right">
+    <meta charset="utf-8"/>
+    <title>Les documents ISO/COFRAC au DLCF</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+<div id="selecta"></div>
+<div id="tree-div"></div>
+<script>
+var now="2020";
+var selecta=[];
+selecta.push("<div><table><tr>");
+selecta.push("<td><form name='choix' method=POST target='_left'><select id=myselecta name=year>");
+for(z=2015;z<2021;z++)
+	{
+	selecta.push("<option value="+z+">modifications"+z+"</option>");
+	}
+selecta.push("</select></td>");
+selecta.push("</tr></table></div>");
+$("#selecta").html(selecta.join(''));
+var year="2019";
+$("#myselecta").on("change",function(){
+  year=$("#myselecta").val();
+  console.log(year);
+});
+console.log(year);
+var xhttp = new XMLHttpRequest(); 
+xhttp.open("GET", "docs.xml", true);
+xhttp.send();
+console.log(xhttp.responseXML);
+
+</script>
+</body>
+</html>

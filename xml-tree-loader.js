@@ -50,7 +50,8 @@ ApiPanel = function() {
         collapseMode:'mini',
 		loader: new Ext.app.DocLoader({
 				requestMethod:'GET',
-	            dataUrl:'docs.xml'
+	            dataUrl:'docs.xml',
+                dataType:"xml"
 	        }),
         /*
 		loader: new Ext.tree.TreeLoader({
