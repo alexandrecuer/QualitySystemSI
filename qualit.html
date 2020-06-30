@@ -10,9 +10,9 @@
 
 <div id="filter">
     <div id="selecta"></div>
-    <input type=text id="filternorme" placeholder="norme?QSE?COFRAC?"></input>&nbsp;
-    <input type=text id="filterpro" placeholder="processus?M1?M2?typedoc?I?E?"></input>&nbsp;
-    <input type=text id="filterport" placeholder="portée?DLCF?SOA?MI?"></input>
+    <input type=text size=30 id="filternorme" placeholder="norme?QSE?COFRAC?"></input>&nbsp;
+    <input type=text size=30 id="filterpro" placeholder="processus?M1?M2?typedoc?I?E?"></input>&nbsp;
+    <input type=text size=30 id="filterport" placeholder="portée?DLCF?SOA?MI?QSE?"></input>
 </div>
 <div id="gedoq"></div>
 
@@ -37,8 +37,9 @@ $("#myselecta").on("change",function(){
 var s1="http://gedoq7.cete-lyon.i2/ennov/cete69doc/document/ref/";
 var e="/attachment";
 var pth="ext/resources/";
+var s2="https://raw.githubusercontent.com/alexandrecuer/gedoq/master/";
 
-function format(line,s){
+function format(line,url){
     var img=[];
     img.push("<td>");
     if (line.ref.includes(".P.")){
@@ -60,7 +61,7 @@ function format(line,s){
     daref.push("<td>");
     daref.push(line.ref);
     daref.push("</td>");
-    return "<tr>"+img.join("")+daref.join("")+"<td><a href="+s+line.ref+e+">"+line.titre+"</a>"+maj+"</td></tr>";
+    return "<tr>"+img.join("")+daref.join("")+"<td><a href="+url+">"+line.titre+"</a>"+maj+"</td></tr>";
 };
 
 
@@ -74,7 +75,9 @@ $("#filter").on("change",function(){
       if ((filternorme && line.norme.includes(filternorme)) || !filternorme){
         if ((filterpro && line.ref.includes(filterpro)) || !filterpro){
             if ((filterport && line.port && line.port.includes(filterport)) || !filterport){
-                tab.push(format(line,s1));
+                // here we form the url
+                
+                if (line.link) tab.push(format(line,s2+line.link)); else tab.push(format(line,s1+line.ref+e));
                 };
             };
         };
@@ -97,11 +100,12 @@ $.ajax({
                 "ref": $(this).attr('ref'),
                 "norme": $(this).attr('norme'),
                 "year": $(this).attr('year'),
-                "port": $(this).attr('port')
+                "port": $(this).attr('port'),
+                "link": $(this).attr('link')
             };
             allxml.push(line);
         });
-        
+        console.log(allxml);
         }
     });
 </script>
