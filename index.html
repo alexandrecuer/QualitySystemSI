@@ -1,17 +1,162 @@
 <html>
-
 <head>
-<title>Docs ISO/COFRAC au DLCF</title>
-<meta charset="utf-8"/>
+    <meta charset="utf-8"/>
+    <title>Les documents ISO/COFRAC au DLCF</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    
 </head>
+<body>
+<div id="info">
+<h1>Documentation ISO/COFRAC - DLCF</h1>
+<font face=arial size=2>
+PREREQUIS pour certains documents: CONNEXION <a href=http://gedoq7.cete-lyon.i2/ennov/cete69doc target="_blank">GedOQ</a> ETABLIE<br>
+LOGIN : visudlcf - pas de mot de passe<br>
+Une fois la connection établie dans un nouvel onglet, fermer le pour revenir à l'explorateur documentaire ci présent
+</font>
+</div>
 
-<frameset cols="550,*" border=0>
-  <frame name="_left" src="qualit.html" scrolling="yes">
-  <frame name="_right" src="connect.html" scrolling="yes">
-  <noframes>
-  <body>
-  <p>Cette page utilise des cadres, mais votre navigateur ne les prend pas en charge.</p>
-  </body>
-  </noframes>
-</frameset>
+<br><br>
+<button id="loc">Voir les liens locaux</button>
+<div id="extra"></div>
+
+<div id="filter">
+    <div id="selecta"></div>
+    <input type=text size=30 id="filternorme" placeholder="norme?QSE?COFRAC?"></input>&nbsp;
+    <input type=text size=30 id="filterpro" placeholder="processus?M1?M2?typedoc?I?E?"></input>&nbsp;
+    <input type=text size=30 id="filterport" placeholder="portée?DLCF?SOA?MI?QSE?"></input>
+</div>
+<div>
+    <h3>Légende</h3>
+    <img src="ext/resources/class.gif" >Manuel ou Plan qualité<br>
+    <img src="ext/resources/event.gif" >Procèdure<br>
+    <img src="ext/resources/pkg.gif" >Instruction<br>
+    <img src="ext/resources/method.gif" >Document modèle<br>
+    <img src="ext/resources/prop.gif" >Enregistrement<br><br><br>
+</div>
+<div id="gedoq"></div>
+
+<script>
+var loclinks=[];
+loclinks.push('faire clic droit et ouvrir dans un nouvel onglet, sauf pour les 3 derniers liens...');
+loclinks.push('<br><a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/09.Comptes_rendus_CODIR">CR CODIR DLCF</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/02.Processus_M1_Pilotage_strategique/Suivi_objectifs_2018">suivi des actions valorisées</a>');
+loclinks.push('<a target=blank href="file://///rhone/FONCTIONNEMENT_ORGANISATION/40.Vie_systeme/40.Non-conformites/">accès au tableau des non conformités</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/01.Direction_DLCF/04.Qualite_preparation/Qualite/01_Revue_qualite/2018">accès revues de direction / plan d\'action<br>tableau suivi objectifs finaux</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/01.Documents_generaux">plan d\'action 2018</a><br>');
+loclinks.push('<a href="file://///ct69-sancy/DLCF/00.Transversal_DLCF/03.Qualite/02.Processus_M1_Pilotage_strategique">archives suivi des objectifs</a>');
+loclinks.push('<a href="file://///ct69-sancy/DLCF/01.Direction_DLCF/04.Qualite_preparation/Qualite/suivi_des_compétences">accès au tableau des qualifications</a>');
+loclinks.push('<a href="file://///ct69-SANCY/Dlcf/01.Direction_DLCF/04.Qualite_preparation/QSE/DLCF_QSE_Documents_a_suivre/Protocole-securite_Plan-prevention-co-activité_PermisFeu">accès aux plans de prévention</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/01.Direction_DLCF/04.Qualite_preparation/QSE/DLCF_QSE_Documents_a_suivre/Analyse_Accidents">Analyse accidents</a>');
+loclinks.push('<a href="file://///rhone/SUPPORTS_RESSOURCES/80.Hygiene_securite_environnement/60.Incendies_Secours/Mise_en_Situation">Programmation exercices</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/01.Direction_DLCF/04.Qualite_preparation/QSE/DLCF_QSE_Documents_a_suivre/Situations d\'urgence/CR_situations-urgence">CR situations urgence</a>');
+loclinks.push('<a href="file://///ct69-SANCY/Dlcf/05.Vie_des_unites_DLCF/24.EM/_commun_metrologie/40.Plannings">plannings métrologiques</a>');
+loclinks.push('<a href="file://///cerema.fr/Claire/20-ACTIVITES_TRANSVERSALES/90-Evaluation_amelioration/20-Cofrac/Correspondants">CR réunion corres. COFRAC Cerema</a>');
+loclinks.push('<a href=docs.xml target="_blank">Imprimer la liste des documents qualité</a>');
+loclinks.push('<a href=cofrac.xml target="_blank">Suivi des documents COFRAC opposables</a>');
+loclinks.push('<a href=doc/infos_métrologiques_circuit.pdf target="_blank">circuit de l\'information métrologique au DLCF</a>');
+loclinks.push('<br><br>');
+
+$("#loc").click(function(){
+    console.log($("#extra"))
+    if ($("#extra").html()===""){
+        $("#loc").html("Cacher les liens locaux");
+        $("#extra").html(loclinks.join("&nbsp;&nbsp;"));
+    } else {
+        $("#loc").html("Voir les liens locaux");
+        $("#extra").html("");
+    };
+    });
+var now="2020";
+var selecta=[];
+selecta.push("<div><table><tr>");
+selecta.push("<td><form name='choix' method=POST target='_left'><select id=myselecta name=year>");
+for(z=2020;z>=2015;z--)
+	{
+	selecta.push("<option value="+z+">modifications"+z+"</option>");
+	}
+selecta.push("</select></td>");
+selecta.push("</tr></table></div>");
+$("#selecta").html(selecta.join(''));
+var year="2020";
+$("#myselecta").on("change",function(){
+  year=$("#myselecta").val();
+  console.log(year);
+});
+
+var s1="http://gedoq7.cete-lyon.i2/ennov/cete69doc/document/ref/";
+var e="/attachment";
+var pth="ext/resources/";
+var s2="https://raw.githubusercontent.com/alexandrecuer/gedoq/master/";
+
+function format(line,url){
+    var img=[];
+    img.push("<td>");
+    if (line.ref.includes(".P.")){
+        img.push("<img src='"+pth+"event.gif'>");
+    };
+    if (line.ref.includes(".I.")){
+        img.push("<img src='"+pth+"pkg.gif'>");
+    };
+    if (line.ref.includes(".E.") || line.ref.includes(".EM.")){
+        img.push("<img src='"+pth+"prop.gif'>");
+    };
+    if (line.ref.includes(".DM.") || line.ref.includes(".DMM.")){
+        img.push("<img src='"+pth+"method.gif'>");
+    };
+    img.push("</td>");
+    maj="";
+    if (line.year==year) maj="&nbsp;<balise style='background : green ; display : inline ;'><font color=white>NOUVEAU</font></balise>";
+    daref=[];
+    daref.push("<td>");
+    daref.push(line.ref);
+    daref.push("</td>");
+    return "<tr>"+img.join("")+daref.join("")+"<td><a href="+url+">"+line.titre+"</a>"+maj+"</td></tr>";
+};
+
+
+$("#filter").on("change",function(){
+  filternorme=$("#filternorme").val();
+  filterpro=$("#filterpro").val();
+  filterport=$("#filterport").val();
+  tab=[]
+  tab.push("<table>");
+  allxml.forEach(function(line){
+      if ((filternorme && line.norme.includes(filternorme)) || !filternorme){
+        if ((filterpro && line.ref.includes(filterpro)) || !filterpro){
+            if ((filterport && line.port && line.port.includes(filterport)) || !filterport){
+                // here we form the url
+                
+                if (line.link) tab.push(format(line,s2+line.link)); else tab.push(format(line,s1+line.ref+e));
+                };
+            };
+        };
+  });
+  tab.push("</table>");
+  $("#gedoq").html(tab.join(""));
+});
+
+var allxml=[];
+
+$.ajax({
+    type: "GET",
+    url: "docs.xml",
+    dataType: "xml",
+    async: true, 
+    success(result) {
+        $(result).find("doc").each(function () {
+            var line={
+                "titre": $(this).attr('titre'),
+                "ref": $(this).attr('ref'),
+                "norme": $(this).attr('norme'),
+                "year": $(this).attr('year'),
+                "port": $(this).attr('port'),
+                "link": $(this).attr('link')
+            };
+            allxml.push(line);
+        });
+        console.log(allxml);
+        }
+    });
+</script>
+</body>
 </html>
