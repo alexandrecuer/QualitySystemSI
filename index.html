@@ -131,8 +131,6 @@ function showSelection(){
     $("#gedoq").html(tab.join(""));
 };
 
-showSelection();
-
 $("#filter").on("change",function(){
   showSelection();
 });
@@ -157,6 +155,7 @@ $.ajax({
             allxml.push(line);
         });
         console.log(allxml);
+	showSelection();
         }
     });
 </script>
