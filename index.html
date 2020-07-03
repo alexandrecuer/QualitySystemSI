@@ -111,26 +111,30 @@ function format(line,url){
     return "<tr>"+img.join("")+daref.join("")+"<td><a href="+url+">"+line.titre+"</a>"+maj+"</td></tr>";
 };
 
-
-$("#filter").on("change",function(){
-  filternorme=$("#filternorme").val();
-  filterpro=$("#filterpro").val();
-  filterport=$("#filterport").val();
-  tab=[]
-  tab.push("<table>");
-  allxml.forEach(function(line){
-      if ((filternorme && line.norme.includes(filternorme)) || !filternorme){
-        if ((filterpro && line.ref.includes(filterpro)) || !filterpro){
-            if ((filterport && line.port && line.port.includes(filterport)) || !filterport){
-                // here we form the url
-                
-                if (line.link) tab.push(format(line,s2+line.link)); else tab.push(format(line,s1+line.ref+e));
+function showSelection(){
+    filternorme=$("#filternorme").val();
+    filterpro=$("#filterpro").val();
+    filterport=$("#filterport").val();
+    tab=[]
+    tab.push("<table>");
+    allxml.forEach(function(line){
+        if ((filternorme && line.norme.includes(filternorme)) || !filternorme){
+            if ((filterpro && line.ref.includes(filterpro)) || !filterpro){
+                if ((filterport && line.port && line.port.includes(filterport)) || !filterport){
+                    // here we form the url
+                    if (line.link) tab.push(format(line,s2+line.link)); else tab.push(format(line,s1+line.ref+e));
                 };
             };
         };
-  });
-  tab.push("</table>");
-  $("#gedoq").html(tab.join(""));
+    });
+    tab.push("</table>");
+    $("#gedoq").html(tab.join(""));
+};
+
+showSelection();
+
+$("#filter").on("change",function(){
+  showSelection();
 });
 
 var allxml=[];
