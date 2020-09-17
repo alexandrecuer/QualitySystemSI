@@ -16,8 +16,8 @@
             <doc titre="Situations à signaler au Cofrac et transfert d'accréditation" version="#02 - 06/2014 " link='GEN-PROC-20'></doc>
 		</port>
         <port name="LABREF">
-            <doc titre="Réglement particulier de la section Laboratoires" version="#09 - 12/2015 " link='LAB-REF-00'></doc>
-            <doc titre="Exigences pour l'accréditation des laboratoires selon la norme NF EN ISO/IEC 17025:2017" version="#12 - 05/2018 " link='LAB-REF-02-(2017)'></doc>
+            <doc titre="Réglement particulier de la section Laboratoires" version="#10" link='LAB-REF-00'></doc>
+            <doc titre="Exigences pour l'accréditation des laboratoires selon la norme NF EN ISO/IEC 17025:2017" version="#13" link='LAB-REF-02-(2017)'></doc>
             <doc titre="Règlement de fonctionnement des commissions" version="#07 - 11/2018 " link='LAB-REF-03'></doc>
             <doc titre="Règlement d'accréditation" version=" #10 - 03/2017 " link='LAB-REF-05'></doc>
             <doc titre="Frais d'accréditation" version="#13 - 12/2017 " link='LAB-REF-06'></doc>
