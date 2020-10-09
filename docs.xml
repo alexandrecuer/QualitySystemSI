@@ -248,7 +248,7 @@
 					<doc port="DLCF MI" link="granulats/R2.DLCF.E.005_Veille_normative_MI.ods" titre="roches et granulats - normes applicables" ref="R2.DLCF.E.005" norme="COFRAC" mode="NEW" year='2020'></doc>
 					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_933-9_fiche_evolution_ref_oct_2013.pdf" titre="fiche d'évolution NF EN 933-9" ref="R2.DLCF.E.012" norme="COFRAC"></doc>
 					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_FD%20P%2018-663_r%C3%A9v1.pdf" titre="fiche d'évolution FD P 18-663" ref="R2.DLCF.E.015" norme="COFRAC" mode="NEW" year='2016'></doc>
-                    <doc port="DMCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'évolution NF-EN 1097-2 avril 2020" ref="gedoq 2020" mode="NEW" year="2020"></doc>
+                    <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'évolution NF-EN 1097-2 avril 2020" ref="gedoq 2020" mode="NEW" year="2020"></doc>
 					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DterCE_Cofrac_Eval_Fournisseurs_prog_23_2013_vf.pdf" titre="ex domaine 23 - évaluation des fournisseurs 2013" ref="R2.DLCF.EM.002" norme="COFRAC"></doc>
 					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DLCF_MI_Liste_fournisseurs_consommables_evaluation.ods" titre="ex domaine 23 - fournisseurs et fournitures critiques" ref="R2.DLCF.EM.004" norme="COFRAC" mode="NEW" year='2020'></doc>
 				</type>
