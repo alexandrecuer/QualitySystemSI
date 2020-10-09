@@ -218,7 +218,7 @@
 					<doc port="DLCF" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-3.pdf" titre="fic. évol. NFEN12390-3 résitance.eprouv.p3" ref="R2.DLCF.E.043" norme="COFRAC" mode="NEW" year='2019'></doc>
 				</type>
 				<type name="COFRAC SOA">
-					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_2019_DLCF_UT_Beton_VF.pdf" titre="ex domaine 3 - revue 2019" ref="R2.DLCF.E.038" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualité_COFRAC_2019_DLCF_UT_Beton_VF.pdf" titre="ex domaine 3 - revue 2019" ref="R2.DLCF.E.038" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_ex_domaine3_2018.pdf" titre="ex domaine 3 - revue 2018" ref="R2.DLCF.E.030" norme="COFRAC" mode="NEW" year='2018'></doc>
 					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_2017_DLCF_UT_beton.pdf" titre="ex domaine 3 - revue 2017" ref="R2.DLCF.E.024" norme="COFRAC" mode="NEW" year='2017'></doc>
 					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/DLCF_SOA_Fiche_evolution_norme_NF%20EN%2012390-1.pdf" titre="fiche d'évolution NF EN 12390-1" ref="R2.DLCF.E.006" norme="COFRAC"></doc>
