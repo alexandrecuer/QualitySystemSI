@@ -238,18 +238,18 @@
                     <doc port="DLCF MI" link="granulats/revues/2019.odt" titre="ex domaine 23 - revue 2019" ref="R2.DLCF.E.037" norme="COFRAC" mode="NEW" year='2019'></doc>
                     <doc port="DLCF MI" link="granulats/revues/2018.odt" titre="ex domaine 23 - revue 2018" ref="R2.DLCF.E.029" norme="COFRAC" mode="NEW" year='2018'></doc>
                     <doc port="DLCF MI" link="granulats/revues/2017.odt" titre="ex domaine 23 - revue 2017" ref="R2.DLCF.E.028" norme="COFRAC" mode="NEW" year='2017'></doc>
-					<doc port="DLCF MI" link="granulats/revues/2016.odt" titre="ex domaine 23 - revue 2016" ref="R2.DLCF.E.025" norme="COFRAC" mode="NEW" year='2017'></doc>
-					<doc port="DLCF MI" link="granulats/revues/2015.pdf" titre="ex domaine 23 - revue 2015" ref="R2.DLCF.E.020" norme="COFRAC" mode="NEW" year='2015'></doc>
-					<doc port="DLCF MI" link="granulats/revues/2014.pdf" titre="ex domaine 23 - revue 2014" ref="R2.DLCF.E.017" norme="COFRAC"></doc>
-					<doc port="DLCF MI" link="granulats/revues/2013.pdf" titre="ex domaine 23 - revue 2013" ref="R2.DLCF.E.011" norme="COFRAC"></doc>
-					<doc port="DLCF MI" link="granulats/revues/2012.pdf" titre="ex domaine 23 - revue 2012" ref="R2.DLCF.E.002" norme="COFRAC"></doc>
-					<doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_Cofrac_Rapport_Incertitudes_2020_V3_sign%C3%A9e.pdf" titre="essais granulats - fact. d'influence" ref="R2.DLCF.E.027" norme="COFRAC" mode="NEW" year='2020'></doc>
-					<doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_rapport_incertitudes_2015_vf.pdf" titre="essais granulats - facteurs d'influence (old)" ref="R2.DLCF.E.001" norme="COFRAC" mode="NEW" year='2016'></doc>
-					<doc port="DLCF MI" link="granulats/R2.DLCF.E.005_Veille_normative_MI.ods" titre="roches et granulats - normes applicables" ref="R2.DLCF.E.005" norme="COFRAC" mode="NEW" year='2020'></doc>
-					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_933-9_fiche_evolution_ref_oct_2013.pdf" titre="fiche d'évolution NF EN 933-9" ref="R2.DLCF.E.012" norme="COFRAC"></doc>
-					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_FD%20P%2018-663_r%C3%A9v1.pdf" titre="fiche d'évolution FD P 18-663" ref="R2.DLCF.E.015" norme="COFRAC" mode="NEW" year='2016'></doc>
+                    <doc port="DLCF MI" link="granulats/revues/2016.odt" titre="ex domaine 23 - revue 2016" ref="R2.DLCF.E.025" norme="COFRAC" mode="NEW" year='2017'></doc>
+                    <doc port="DLCF MI" link="granulats/revues/2015.pdf" titre="ex domaine 23 - revue 2015" ref="R2.DLCF.E.020" norme="COFRAC" mode="NEW" year='2015'></doc>
+                    <doc port="DLCF MI" link="granulats/revues/2014.pdf" titre="ex domaine 23 - revue 2014" ref="R2.DLCF.E.017" norme="COFRAC"></doc>
+                    <doc port="DLCF MI" link="granulats/revues/2013.pdf" titre="ex domaine 23 - revue 2013" ref="R2.DLCF.E.011" norme="COFRAC"></doc>
+                    <doc port="DLCF MI" link="granulats/revues/2012.pdf" titre="ex domaine 23 - revue 2012" ref="R2.DLCF.E.002" norme="COFRAC"></doc>
+                    <doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_Cofrac_Rapport_Incertitudes_2020_V3_sign%C3%A9e.pdf" titre="essais granulats - fact. d'influence" ref="R2.DLCF.E.027" norme="COFRAC" mode="NEW" year='2020'></doc>
+                    <doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_rapport_incertitudes_2015_vf.pdf" titre="essais granulats - facteurs d'influence (old)" ref="R2.DLCF.E.001" norme="COFRAC" mode="NEW" year='2016'></doc>
+                    <doc port="DLCF MI" link="granulats/R2.DLCF.E.005_Veille_normative_MI.ods" titre="roches et granulats - normes applicables (veille normative)" ref="R2.DLCF.E.005" norme="COFRAC" mode="NEW" year='2020'></doc>
+                    <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_933-9_fiche_evolution_ref_oct_2013.pdf" titre="fiche d'évolution NF EN 933-9" ref="R2.DLCF.E.012" norme="COFRAC"></doc>
+                    <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_FD%20P%2018-663_r%C3%A9v1.pdf" titre="fiche d'évolution FD P 18-663" ref="R2.DLCF.E.015" norme="COFRAC" mode="NEW" year='2016'></doc>
                     <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'évolution NF-EN 1097-2 avril 2020" ref="gedoq 2020" mode="NEW" year="2020"></doc>
-					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DterCE_Cofrac_Eval_Fournisseurs_prog_23_2013_vf.pdf" titre="ex domaine 23 - évaluation des fournisseurs 2013" ref="R2.DLCF.EM.002" norme="COFRAC"></doc>
+                    <doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DterCE_Cofrac_Eval_Fournisseurs_prog_23_2013_vf.pdf" titre="ex domaine 23 - évaluation des fournisseurs 2013" ref="R2.DLCF.EM.002" norme="COFRAC"></doc>
 					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DLCF_MI_Liste_fournisseurs_consommables_evaluation.ods" titre="ex domaine 23 - fournisseurs et fournitures critiques" ref="R2.DLCF.EM.004" norme="COFRAC" mode="NEW" year='2020'></doc>
 				</type>
 			</type>
