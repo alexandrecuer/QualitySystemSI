@@ -82,7 +82,7 @@ function geninitialview()
             //console.log(data);
             var tree = "";
             var files=[];
-            files.push("<table><tr><td>Contenus racine</td></tr>");
+            files.push("<table><tr><td><b>Contenus racine</b></td></tr>");
             tree="<div class=root id=test>RACINE GITHUB</div>";
             data.forEach(function(element){
               if (element["type"]==="dir") {
@@ -95,7 +95,7 @@ function geninitialview()
             });
             files.push("</table>");
             $("#files_view").html(files.join(""));
-            $("#folders_view").html(tree);
+            $("#folders_view").html(tree+"<br><br>");
             $(".root").css("background-color", lg);
         }
     });
@@ -122,7 +122,7 @@ $("#folders_view").on("click",".child",function(){
     $(this).css("background-color",lg);
     
     $("#files_view").html("");
-    $("#files_view").append("<table><tr><td colspan=2>Contenus "+bc+"</td></tr>");
+    $("#files_view").append("<table><tr><td colspan=2><b>Contenus "+bc+"</b></td></tr>");
     var subtree = "";
     
     var apiurl = gauf1+"/"+user+"/"+repo+"/"+gauf2+"/"+value;
