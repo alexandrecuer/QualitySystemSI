@@ -49,14 +49,16 @@ Une fois la connection établie dans un nouvel onglet, fermer le pour revenir à
     <img src="lib/deprecated/ext/resources/prop.gif" >Enregistrement<br><br><br>
 </div>
 
-<div id="gedoq"></div>
-
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
     <div class="col-sm" id="folders_view"></div>
     <div class="col-sm" id="files_view"></div>
   </div>
 </div>
+
+<div id="gedoq"></div>
+
+
 
 <script>
 // github username and repo
@@ -204,6 +206,132 @@ $("#folders_view").on("click",".child",function(){
       }
     });  
 });
+var loclinks=[];
+loclinks.push('<font color=red>faire clic droit sur le lien, copier l`\'adresse du lien, puis lancer votre explorateur de fichiers, coller le lien dans la barre de l\'accès rapide et valider par entrée</font>');
+loclinks.push('<br><a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/09.Comptes_rendus_CODIR">CR CODIR DLCF</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/02.Comptabilite_Gestion/14.Clients/SUIVI_DES_FACTURATIONS/">suivi prévisions facturation</a><br>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/05.Vie_des_unites_DLCF/30.UPAL/Suivi assistantes metier">CHRONO - PARAPHEUR VIRTUEL</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/02.Processus_M1_Pilotage_strategique/">suivi des actions valorisées</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/04.Processus_M3_Relations_Clients_Partenaires/">suivi de l\'écoute client</a><br>');
+loclinks.push('<a target=blank href="file://///rhone/FONCTIONNEMENT_ORGANISATION/40.Vie_systeme/40.Non-conformites/">accès au tableau des non conformités</a><br>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/01.Direction_DLCF/04.Qualite_preparation/Qualite/01_Revue_qualite/">accès revues de direction / plan d\'action /tableau suivi objectifs finaux</a><br>');
+loclinks.push('<a href="file://///ct69-sancy/DLCF/01.Direction_DLCF/04.Qualite_preparation/Qualite/suivi_des_competences">accès au tableau des qualifications</a><br>');
+loclinks.push('<a href="file://///ct69-SANCY/Dlcf/01.Direction_DLCF/04.Qualite_preparation/QSE/DLCF_QSE_Documents_a_suivre/Protocole-securite_Plan-prevention-co-act_PermisFeu">accès aux plans de prévention</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/01.Direction_DLCF/04.Qualite_preparation/QSE/DLCF_QSE_Documents_a_suivre/Analyse_Accidents">Analyse accidents</a>');
+loclinks.push('<a href="file://///rhone/SUPPORTS_RESSOURCES/80.Hygiene_securite_environnement/60.Incendies_Secours/Mise_en_Situation">Programmation exercices</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/01.Direction_DLCF/04.Qualite_preparation/QSE/DLCF_QSE_Documents_a_suivre/Situations d\'urgence/CR_situations-urgence">CR situations urgence</a><br>');
+loclinks.push('<a href="file://///ct69-SANCY/Dlcf/05.Vie_des_unites_DLCF/24.EM/planification/">plannings métrologiques</a><br>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/01.Documents_generaux/cofrac/confid_impar">engagements de confidentialité et d\'impartialité</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/01.Documents_generaux/cofrac/conflits_int">COFRAC - analyse risques conflits intérêts</a><br>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/06.Processus_R2_Prestations_coeur_de_metier">évaluation de fournisseurs COFRAC</a>');
+loclinks.push('<a href="file://///ct69-sancy/Dlcf/00.Transversal_DLCF/03.Qualite/10.Processus_S3_Achat/eval_fournisseurs">évaluation des fournisseurs</a><br>');
+loclinks.push('<br><br>');
+
+$("#loc").click(function(){
+    console.log($("#extra"))
+    if ($("#extra").html()===""){
+        $("#loc").html("Cacher les liens locaux");
+        $("#extra").html(loclinks.join("&nbsp;&nbsp;"));
+    } else {
+        $("#loc").html("Voir les liens locaux");
+        $("#extra").html("");
+    };
+    });
+var now="2020";
+var selecta=[];
+selecta.push("<div><table><tr>");
+selecta.push("<td><form name='choix' method=POST target='_left'><select id=myselecta name=year>");
+for(z=2020;z>=2015;z--)
+	{
+	selecta.push("<option value="+z+">modifications"+z+"</option>");
+	}
+selecta.push("</select></td>");
+selecta.push("</tr></table></div>");
+$("#selecta").html(selecta.join(''));
+var year="2020";
+$("#myselecta").on("change",function(){
+  year=$("#myselecta").val();
+  console.log(year);
+});
+
+var s1="http://gedoq7.cete-lyon.i2/ennov/cete69doc/document/ref/";
+var e="/attachment";
+var pth="lib/deprecated/ext/resources/";
+var s2="https://raw.githubusercontent.com/alexandrecuer/gedoq/master/";
+
+function format(line,url){
+    var img=[];
+    img.push("<td>");
+    if (line.ref.includes(".P.")){
+        img.push("<img src='"+pth+"event.gif'>");
+    };
+    if (line.ref.includes(".I.")){
+        img.push("<img src='"+pth+"pkg.gif'>");
+    };
+    if (line.ref.includes(".E.") || line.ref.includes(".EM.")){
+        img.push("<img src='"+pth+"prop.gif'>");
+    };
+    if (line.ref.includes(".DM.") || line.ref.includes(".DMM.")){
+        img.push("<img src='"+pth+"method.gif'>");
+    };
+    img.push("</td>");
+    maj="";
+    if (line.year==year) maj="&nbsp;<balise style='background : green ; display : inline ;'><font color=white>NOUVEAU</font></balise>";
+    daref=[];
+    daref.push("<td>");
+    daref.push(line.ref);
+    daref.push("</td>");
+    return "<tr>"+img.join("")+daref.join("")+"<td><a href="+url+">"+line.titre+"</a>"+maj+"</td></tr>";
+};
+
+function showSelection(){
+    filternorme=$("#filternorme").val();
+    filterpro=$("#filterpro").val();
+    filterport=$("#filterport").val();
+    tab=[]
+    tab.push("<table>");
+    allxml.forEach(function(line){
+        if ((filternorme && line.norme.includes(filternorme)) || !filternorme){
+            if ((filterpro && line.ref.includes(filterpro)) || !filterpro){
+                if ((filterport && line.port && line.port.includes(filterport)) || !filterport){
+                    // here we form the url
+                    tab.push(format(line,s1+line.ref+e));
+                };
+            };
+        };
+    });
+    tab.push("</table>");
+    $("#gedoq").html(tab.join(""));
+};
+
+$("#filter").on("change",function(){
+  showSelection();
+});
+
+var allxml=[];
+
+$.ajax({
+    type: "GET",
+    url: "docs.xml",
+    dataType: "xml",
+    async: true,
+    success(result) {
+        $(result).find("doc").each(function () {
+            var line={
+                "titre": $(this).attr('titre'),
+                "ref": $(this).attr('ref'),
+                "norme": $(this).attr('norme'),
+                "year": $(this).attr('year'),
+                "port": $(this).attr('port'),
+                "link": $(this).attr('link')
+            };
+            allxml.push(line);
+        });
+        console.log(allxml);
+	showSelection();
+    }
+});
+
 </script>
 
 </body>
