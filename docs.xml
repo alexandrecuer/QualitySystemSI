@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="style.xsl" type="text/xsl"?>
 <items>
 	<pro name="DG - DIRECTION GENERALE" base="ROOT">
@@ -6,41 +6,41 @@
 			<doc port="DTERCE" titre="manuel QSE du Cerema Centre-Est" ref="DG.MQSE.001"  norme="QSE" iconCls="icon-cls" mode="NEW" year='2017'></doc>
 		</port>
 		<port name="DLCF">
-			<doc port="DLCF" titre="plan qualité du DLCF" ref="DG.PQSE.005" norme="QSE" iconCls="icon-cls" mode="NEW" year='2018'></doc>
-			<doc port="DLCF" titre="politique qualité DLCF - engagement direction" ref="DG.PQSE.006" norme="QSE" iconCls="icon-cls" mode="NEW" year='2019'></doc>
+			<doc port="DLCF" titre="plan qualitÃ© du DLCF" ref="DG.PQSE.005" norme="QSE" iconCls="icon-cls" mode="NEW" year='2018'></doc>
+			<doc port="DLCF" titre="politique qualitÃ© DLCF - engagement direction" ref="DG.PQSE.006" norme="QSE" iconCls="icon-cls" mode="NEW" year='2019'></doc>
 		</port>
 	</pro>
 	<pro name="M1 - MANAGEMENT STRATEGIQUE" base="ROOT">
 		<port name="DTERCE">
-			<type name="Procédures">
-				<doc port="DTERCE" titre="Maîtrise documentaire" ref="M1.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
-				<doc port="DTERCE" titre="Prévention hygiène et sécurité" ref="M1.P.002" norme="QSE" iconCls="icon-event"></doc>
-				<doc port="DTERCE" titre="Réglement intérieur CHSCT" ref="M1.P.003" norme="QSE" iconCls="icon-event" mode="NEW" year='2015'></doc>
-				<doc port="DTERCE" titre="Réglement intérieur alcool" ref="M1.P.004" norme="QSE" iconCls="icon-event"></doc>
+			<type name="ProcÃ©dures">
+				<doc port="DTERCE" titre="MaÃ®trise documentaire" ref="M1.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
+				<doc port="DTERCE" titre="PrÃ©vention hygiÃ¨ne et sÃ©curitÃ©" ref="M1.P.002" norme="QSE" iconCls="icon-event"></doc>
+				<doc port="DTERCE" titre="RÃ©glement intÃ©rieur CHSCT" ref="M1.P.003" norme="QSE" iconCls="icon-event" mode="NEW" year='2015'></doc>
+				<doc port="DTERCE" titre="RÃ©glement intÃ©rieur alcool" ref="M1.P.004" norme="QSE" iconCls="icon-event"></doc>
 				<doc port="DTERCE" titre="Cohabitation" ref="M1.P.005" norme="QSE" iconCls="icon-event"></doc>
 				<doc port="DTERCE" titre="Document unique" ref="M1.P.006" norme="QSE" iconCls="icon-event"></doc>
-				<doc port="DTERCE" titre="Réglement intérieur DTERCE" ref="M1.P.007" norme="QSE" iconCls="icon-event" mode="NEW" year='2017'></doc>
-				<doc port="DTERCE" titre="Frais de déplacement" ref="M1.P.008" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
-				<doc port="DTERCE" titre="Evaluation de la conformité en HSE" ref="M1.P.009" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE" titre="RÃ©glement intÃ©rieur DTERCE" ref="M1.P.007" norme="QSE" iconCls="icon-event" mode="NEW" year='2017'></doc>
+				<doc port="DTERCE" titre="Frais de dÃ©placement" ref="M1.P.008" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE" titre="Evaluation de la conformitÃ© en HSE" ref="M1.P.009" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
 			</type>
 			<type name="Instructions">
 				<doc port="DTERCE" titre="Nommage des documents" ref="M1.I.001" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-				<doc port="DTERCE" titre="Fonctions et responsabilités" ref="M1.I.002" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE" titre="Fonctions et responsabilitÃ©s" ref="M1.I.002" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 				<doc port="DTERCE" titre="Fiches de fonctions" ref="M1.I.003" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-				<doc port="DTERCE" titre="Communautés métiers locales" ref="M1.I.005" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-				<doc port="DTERCE" titre="Régles d'utilisation de Gedoq" ref="M1.I.006" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE" titre="CommunautÃ©s mÃ©tiers locales" ref="M1.I.005" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE" titre="RÃ©gles d'utilisation de Gedoq" ref="M1.I.006" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 				<doc port="DTERCE" titre="Organisation COS et CODIR" ref="M1.I.007" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2017'></doc>
 			</type>
 			<type name="enregistrements">
 				<doc port="DTERCE" titre="Politique HSE" ref="M1.E.067" norme="QSE"></doc>
 				<doc port="DTERCE" titre="L'essentiel HSE" ref="M1.E.068" norme="QSE"></doc>
-				<doc port="DTERCE" titre="Lettre de cadrage processus et comm.métier.loc" ref="M1.E.080" norme="QSE" mode="NEW" year='2017'></doc>
+				<doc port="DTERCE" titre="Lettre de cadrage processus et comm.mÃ©tier.loc" ref="M1.E.080" norme="QSE" mode="NEW" year='2017'></doc>
 			</type>
 		</port>
 		<port name="DLCF">
-			<type name="enregistrements métiers">
-                <doc port="DLCF" titre="revue direction DLCF 2019" ref="M1.EM.160" norme="QSE" mode="NEW" year='2019'></doc>
-                <doc port="DLCF" titre="revue direction DLCF 2018" ref="M1.EM.140" norme="QSE" mode="NEW" year='2018'></doc>
+			<type name="enregistrements mÃ©tiers">
+				<doc port="DLCF" titre="revue direction DLCF 2019" ref="M1.EM.160" norme="QSE" mode="NEW" year='2019'></doc>
+				<doc port="DLCF" titre="revue direction DLCF 2018" ref="M1.EM.140" norme="QSE" mode="NEW" year='2018'></doc>
 				<doc port="DLCF" titre="revue direction DLCF 2017" ref="M1.EM.115" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DLCF" titre="revue direction DLCF 24/03/2016" ref="M1.EM.105" norme="QSE" mode="NEW" year='2016'></doc>
 				<doc port="DLCF" titre="annexes revue direction 2016" ref="M1.EM.109" norme="QSE" mode="NEW" year='2016'></doc>
@@ -51,48 +51,48 @@
 	</pro>
 	<pro name="M3 - RELATIONS CLIENTS ET PARTENAIRES" base="ROOT">
         <port name="DTERCE">
-            <type name="procédures">
+            <type name="procÃ©dures">
 				<doc port="DTERCE" titre="Ecoute des clients et partenaires" ref="M3.P.001" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DTERCE" titre="Contractualisation" ref="M3.P.002" norme="QSE" mode="NEW" year='2017'></doc>
 			</type>
             <type name="Instructions">
-				<doc port="DTERCE" titre="Recommandations pour la réponse aux appels d'offre" ref="M3.I.001" norme="QSE" mode="NEW" year='2017'></doc>
+				<doc port="DTERCE" titre="Recommandations pour la rÃ©ponse aux appels d'offre" ref="M3.I.001" norme="QSE" mode="NEW" year='2017'></doc>
 			</type>
         </port>
         <port name="DLCF">
             <type name="Instructions">
-				<doc port="DLCF" titre="Ecoute clients et partenaires - déclinaison DLCF" ref="M3.DLCF.I.001" norme="QSE" mode="NEW" year='2018'></doc>
+				<doc port="DLCF" titre="Ecoute clients et partenaires - dÃ©clinaison DLCF" ref="M3.DLCF.I.001" norme="QSE" mode="NEW" year='2018'></doc>
 			</type>
         </port>
     </pro>
     <pro name="M2 - AMELIORATION CONTINUE" base="ROOT">
 		<port name="DTERCE">
-			<type name="procédures">
+			<type name="procÃ©dures">
 				<doc port="DTERCE" titre="audits internes" ref="M2.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2016'></doc>
-				<doc port="DTERCE" titre="maîtrise des NCAP" ref="M2.P.002" norme="QSE" iconCls="icon-event" mode="NEW" year='2016'></doc>
-				<doc port="DTERCE" titre="évaluation satisfaction client" ref="M2.P.004" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
+				<doc port="DTERCE" titre="maÃ®trise des NCAP" ref="M2.P.002" norme="QSE" iconCls="icon-event" mode="NEW" year='2016'></doc>
+				<doc port="DTERCE" titre="Ã©valuation satisfaction client" ref="M2.P.004" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="analyse accident W" ref="M2.P.005" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
 			</type>
 			<type name="enregistrements">
-				<doc port="DTERCE" titre="glossaire des non-conformités" ref="M2.E.003" norme="QSE"></doc>
+				<doc port="DTERCE" titre="glossaire des non-conformitÃ©s" ref="M2.E.003" norme="QSE"></doc>
 			</type>
 		</port>
 		<port name="DLCF">
-			<type name="enregistrements métiers">
-				<doc port="DLCF" titre="rapport audit interne ISO 9001- DLCF - février 2013" ref="M2.EM.027" norme="QSE"></doc>
+			<type name="enregistrements mÃ©tiers">
+				<doc port="DLCF" titre="rapport audit interne ISO 9001- DLCF - fÃ©vrier 2013" ref="M2.EM.027" norme="QSE"></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - juin 2013" ref="M2.EM.028" norme="QSE"></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - avril 2014" ref="M2.EM.033" norme="QSE"></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - septembre 2015" ref="M2.EM.045" norme="QSE" mode="NEW" year='2015'></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2016" ref="M2.EM.054" norme="QSE" mode="NEW" year='2016'></doc>
-                <doc port="DLCF" titre="rapport audit interne QSE - DLCF - septembre 2017" ref="M2.EM.061" norme="QSE" mode="NEW" year='2017'></doc>
-                <doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2018" ref="M2.EM.066" norme="QSE" mode="NEW" year='2018'></doc>
-                <doc port="DLCF" link="audits_internes/HSE/Cerema_CE_CR_audit_interne_DLCF_17102019.odt" titre="rapport audit interne QSE - DLCF - octobre 2019" ref="github.2020" norme="QSE" mode="NEW" year='2019'></doc>
+				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - septembre 2017" ref="M2.EM.061" norme="QSE" mode="NEW" year='2017'></doc>
+				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2018" ref="M2.EM.066" norme="QSE" mode="NEW" year='2018'></doc>
+				<doc port="DLCF" link="audits_internes/HSE/Cerema_CE_CR_audit_interne_DLCF_17102019.odt" titre="rapport audit interne QSE - DLCF - octobre 2019" ref="github.2020" norme="QSE" mode="NEW" year='2019'></doc>
 			</type>
 		</port>
 	</pro>
     <pro name="R1 - Programmation" base="ROOT">
         <port name="DTERCE">
-            <type name="procédures">
+            <type name="procÃ©dures">
 				<doc port="DTERCE" titre="Cadrage du potentiel de production du Cerema Centre-Est" ref="R1.Prog.P.001" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DTERCE" titre="Programmation nationale" ref="R1.Prog.P.002" norme="QSE" mode="NEW" year='2017'></doc>
                 <doc port="DTERCE" titre="Programmation locale" ref="R1.Prog.P.003" norme="QSE" mode="NEW" year='2017'></doc>
@@ -101,18 +101,18 @@
     </pro>
 	<pro name="R2 - REALISATION" base="ROOT">
 		<port name="DTERCE">
-			<type name="procédures">
+			<type name="procÃ©dures">
 				<doc port="DTERCE" titre="gestion d'une affaire" ref="R2.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="prestations COFRAC - NF EN 17025" ref="R2.P.002" norme="COFRAC" iconCls="icon-event" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="gestion des EPI" ref="R2.P.004" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
-				<doc port="DTERCE" titre="co-activité" ref="R2.P.005" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
+				<doc port="DTERCE" titre="co-activitÃ©" ref="R2.P.005" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="produits chimiques ou ACD" ref="R2.P.006" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
 			</type>
 			<type name="instructions">
-				<doc port="DTERCE" titre="sécurité routière et atelier mobile" ref="R2.I.001" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
+				<doc port="DTERCE" titre="sÃ©curitÃ© routiÃ¨re et atelier mobile" ref="R2.I.001" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="instruction QUALITOoo" ref="R2.I.006" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
-				<doc port="DTERCE" titre="risque amiante et enrobés de chaussées" ref="R2.I.007" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2015'></doc>
-				<doc port="DTERCE" titre="poste de travail en extérieur" ref="R2.I.008" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
+				<doc port="DTERCE" titre="risque amiante et enrobÃ©s de chaussÃ©es" ref="R2.I.007" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2015'></doc>
+				<doc port="DTERCE" titre="poste de travail en extÃ©rieur" ref="R2.I.008" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="travail en hauteur" ref="R2.I.009" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
 				<doc port="DTERCE" titre="manutention manuelle de charges" ref="R2.I.010" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
 			</type>
@@ -122,35 +122,35 @@
 			</type>
 		</port>
 		<port name="DLCF">
-			<type name="procédures">
-				<doc port="DLCF" link="R2.DLCF.P.001_annexe_specifique_COFRAC.odt" titre="annexe spécifique COFRAC" ref="R2.DLCF.P.001" norme="COFRAC" iconCls="icon-event" mode="NEW" year='2019'></doc>
+			<type name="procÃ©dures">
+				<doc port="DLCF" link="R2.DLCF.P.001_annexe_specifique_COFRAC.odt" titre="annexe spÃ©cifique COFRAC" ref="R2.DLCF.P.001" norme="COFRAC" iconCls="icon-event" mode="NEW" year='2019'></doc>
 			</type>
 			<type name="instructions">
-				<doc port="DLCF" titre="application procédure gestion d'une affaire R123" ref="R2.DLCF.I.001" norme="QSE" iconCls="icon-pkg"></doc>
+				<doc port="DLCF" titre="application procÃ©dure gestion d'une affaire R123" ref="R2.DLCF.I.001" norme="QSE" iconCls="icon-pkg"></doc>
 				<type name="QSE">
 					<doc port="DLCF QSE" titre="exposition au bruit" ref="R2.DLCF.I.010" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="entretien périodique du matériel d'éclairage" ref="R2.DLCF.I.013" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="levage de charge - chariot élévateur et palan" ref="R2.DLCF.I.014" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-					<doc port="DLCF QSE" titre="mise à disposition et utilisation des EPI" ref="R2.DLCF.I.015" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-					<doc port="DLCF QSE" titre="utilisation échelles, escabeaux, marche-pieds" ref="R2.DLCF.I.016" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-					<doc port="DLCF QSE" titre="gestion des déchets" ref="R2.DLCF.I.017" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="entretien pÃ©riodique du matÃ©riel d'Ã©clairage" ref="R2.DLCF.I.013" norme="QSE" iconCls="icon-pkg"></doc>
+					<doc port="DLCF QSE" titre="levage de charge - chariot Ã©lÃ©vateur et palan" ref="R2.DLCF.I.014" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="mise Ã  disposition et utilisation des EPI" ref="R2.DLCF.I.015" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="utilisation Ã©chelles, escabeaux, marche-pieds" ref="R2.DLCF.I.016" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="gestion des dÃ©chets" ref="R2.DLCF.I.017" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 					<doc port="DLCF QSE" titre="port de charge" ref="R2.DLCF.I.018" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="utilisation de la salle de convivialité" ref="R2.DLCF.I.019" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="utilisation de la salle de convivialitÃ©" ref="R2.DLCF.I.019" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 					<doc port="DLCF QSE" titre="intervention en urgence eau gaz DLCF" ref="R2.DLCF.I.020" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="entretien des aérations collectives" ref="R2.DLCF.I.021" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="entretien des aÃ©rations collectives" ref="R2.DLCF.I.021" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 					<doc port="DLCF QSE" titre="mise en charge des batteries (Atex)" ref="R2.DLCF.I.023" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="transport azote - butane - propane" ref="R2.DLCF.I.024" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-					<doc port="DLCF QSE" titre="utilisation acétylène pour le poste à souder" ref="R2.DLCF.I.025" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="utilisation perchloroéthylène" ref="R2.DLCF.I.026" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2016'></doc>
+					<doc port="DLCF QSE" titre="utilisation acÃ©tylÃ¨ne pour le poste Ã  souder" ref="R2.DLCF.I.025" norme="QSE" iconCls="icon-pkg"></doc>
+					<doc port="DLCF QSE" titre="utilisation perchloroÃ©thylÃ¨ne" ref="R2.DLCF.I.026" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2016'></doc>
 					<doc port="DLCF QSE" titre="urgence locale produits chimiques" ref="R2.DLCF.I.027" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="mesures d'urgences risque chimique ACD et CMR" ref="R2.DLCF.I.028" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="notice de poste ACD et CMR" ref="R2.DLCF.I.029" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="port et entretien des masques respiratoires" ref="R2.DLCF.I.030" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="consignes d'utilisation PDG 1000 et DL 30" ref="R2.DLCF.I.033" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="gestion des produits chimiques au DLCF" ref="R2.DLCF.I.034" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="méthode analyse risque chimique - DLCF" ref="R2.DLCF.I.035" norme="QSE" iconCls="icon-pkg"></doc>
-					<doc port="DLCF QSE" titre="essais sur les matériaux alternatifs" ref="R2.DLCF.I.037" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-					<doc port="DLCF QSE" titre="instructions pour la conduite du chariot élévateur  " ref="R2.DLCF.I.038" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="mÃ©thode analyse risque chimique - DLCF" ref="R2.DLCF.I.035" norme="QSE" iconCls="icon-pkg"></doc>
+					<doc port="DLCF QSE" titre="essais sur les matÃ©riaux alternatifs" ref="R2.DLCF.I.037" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF QSE" titre="instructions pour la conduite du chariot Ã©lÃ©vateur  " ref="R2.DLCF.I.038" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 				</type>
 				<type name="QSE GCM">
 					<doc port="DLCF QSE GCM" titre="utilisation plate-forme brouillard-pluie" ref="R2.DLCF.I.031" norme="QSE" iconCls="icon-pkg"></doc>
@@ -160,96 +160,96 @@
 					<doc titre="utilisation sondeuses BVB 14 et SEDIDRILL 350" ref="R2.DLCF.I.032" norme="QSE" iconCls="icon-pkg"></doc>
 				</type>
 				<type name="COFRAC SOA">
-					<doc port="DLCF SOA" link="beton_durci/instruction_COFRAC_essai_compression_b%C3%A9ton.odt" titre="essai de compression sur béton" ref="R2.DLCF.I.009" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/instruction_COFRAC_essai_de_migration_des_chlorures_en_regime_non_stationnaire.odt" titre="essai migration des chlorures" ref="R2.DLCF.I.040" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/instruction_COFRAC_essai_de_perm%C3%A9abilit%C3%A9_aux%20gaz_sur_b%C3%A9ton.odt" titre="essai Kgaz" ref="R2.DLCF.I.041" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/instruction_COFRAC_essai_compression_b%C3%A9ton.odt" titre="essai de compression sur bÃ©ton" ref="R2.DLCF.I.009" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+					<doc port="DLCF SOA" link="beton_durci/instruction_COFRAC_essai_de_migration_des_chlorures_en_regime_non_stationnaire.odt" titre="essai migration des chlorures" ref="R2.DLCF.I.040" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/instruction_COFRAC_essai_de_perm%C3%A9abilit%C3%A9_aux%20gaz_sur_b%C3%A9ton.odt" titre="essai Kgaz" ref="R2.DLCF.I.041" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
 				</type>
 				<type name="COFRAC MI">
-					<doc port="DLCF MI" link="granulats/R2.DLCF.I.006_MI_instruction_COFRAC.odt" titre="Réalisation des prestations COFRAC de l'unité MI" ref="R2.DLCF.I.006" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
+					<doc port="DLCF MI" link="granulats/R2.DLCF.I.006_MI_instruction_COFRAC.odt" titre="RÃ©alisation des prestations COFRAC de l'unitÃ© MI" ref="R2.DLCF.I.006" norme="COFRAC" iconCls="icon-pkg" mode="NEW" year='2019'></doc>
 				</type>
 			</type>
-			<type name="documents modèles">
+			<type name="documents modÃ¨les">
 				<type name="QSE GCM">
-					<doc port="DLCF QSE GCM" titre="plan de prévention plate-forme  brouillard-pluie" ref="R2.DLCF.DM.008" norme="QSE" iconCls="icon-method"></doc>
+					<doc port="DLCF QSE GCM" titre="plan de prÃ©vention plate-forme  brouillard-pluie" ref="R2.DLCF.DM.008" norme="QSE" iconCls="icon-method"></doc>
 				</type>
 				<type name="COFRAC">
-					<doc port="DLCF" link="R2.DLCF.DM.005_Fiche_evolution_referentiel.odt" titre="fiche d'évolution d'un référentiel" ref="R2.DLCF.DM.005" norme="COFRAC" iconCls="icon-method"></doc>
+					<doc port="DLCF" link="R2.DLCF.DM.005_Fiche_evolution_referentiel.odt" titre="fiche d'Ã©volution d'un rÃ©fÃ©rentiel" ref="R2.DLCF.DM.005" norme="COFRAC" iconCls="icon-method"></doc>
 				</type>	
 				<type name="COFRAC SOA">
-					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/Feuille%20accompagnement%20%C3%A9prouvette.odt" titre="ex domaine 3 - feuille accompagnement éprouvettes" ref="R2.DLCF.DM.009" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2018'></doc>
-					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/Feuille_essai_%C3%A9prouvette_compression.odt" titre="ex domaine 3 - feuille essai éprouvettes" ref="R2.DLCF.DM.010" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
-					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/Mod%C3%A8le_PV_essais_compression.ots" titre="ex domaine 3 - modèle PV" ref="R2.DLCF.DM.018" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
-					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/DLCF_SOA_Modele_liste_num_SOA.odt" titre="ex domaine 3 - modèle liste num SOA" ref="R2.DLCF.DM.014" norme="COFRAC" iconCls="icon-method"></doc>
-                    <doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/01_modele_dapp_dossier_essais.ots" titre="ex domaine 3 - dossier dapp chlorures" ref="R2.DLCF.DM.019" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/01_modele_dossier_essai_kgaz.ots" titre="ex domaine 3 - dossier kgaz" ref="R2.DLCF.DM.020" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
-                    
+					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/Feuille%20accompagnement%20%C3%A9prouvette.odt" titre="ex domaine 3 - feuille accompagnement Ã©prouvettes" ref="R2.DLCF.DM.009" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2018'></doc>
+					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/Feuille_essai_%C3%A9prouvette_compression.odt" titre="ex domaine 3 - feuille essai Ã©prouvettes" ref="R2.DLCF.DM.010" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/Mod%C3%A8le_PV_essais_compression.ots" titre="ex domaine 3 - modÃ¨le PV" ref="R2.DLCF.DM.018" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/DLCF_SOA_Modele_liste_num_SOA.odt" titre="ex domaine 3 - modÃ¨le liste num SOA" ref="R2.DLCF.DM.014" norme="COFRAC" iconCls="icon-method"></doc>
+					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/01_modele_dapp_dossier_essais.ots" titre="ex domaine 3 - dossier dapp chlorures" ref="R2.DLCF.DM.019" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/documents_mod%C3%A8les/01_modele_dossier_essai_kgaz.ots" titre="ex domaine 3 - dossier kgaz" ref="R2.DLCF.DM.020" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2019'></doc>
 				</type>
 				<type name="COFRAC MI">
-					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.003_PV_Essai_Cofrac.ods" titre="ex domaine 23 - modèle PV essais 2 pages" ref="R2.DLCF.DMM.003" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.004_Feuille_Recept.ods" titre="minutes granulats - feuille réception" ref="R2.DLCF.DMM.004" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.005_Minute_Essai_apla_en_refus_tamis_cumule.ods" titre="minutes granulats - apla refus tamis cumulé" ref="R2.DLCF.DMM.005" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.006_Minute_Essai_apla_en_refus_tamis_partiel.ods" titre="minutes granulats - apla refus tamis partiel" ref="R2.DLCF.DMM.006" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.007_Minute_Essai_Bleu_Methylene.ods" titre="minutes granulats - Bleu de méthylène" ref="R2.DLCF.DMM.007" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.08_Minute_Granulometrie.ods" titre="minutes granulats - Granulométrie" ref="R2.DLCF.DMM.008" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.009_Minute_Granulo-Mod.ods" titre="minutes granulats - Granulo module fin." ref="R2.DLCF.DMM.009" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.010_Minute_LA.ods" titre="minutes granulats - Los Angeles" ref="R2.DLCF.DMM.010" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.011_Minute_MDE.ods" titre="minutes granulats - MDE" ref="R2.DLCF.DMM.011" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.012_Preparation_bleu_pillulier.ods" titre="minutes granulats - préparation bleu méthylène pillulier" ref="R2.DLCF.DMM.012" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.013_Preparation_bleu.ods" titre="minutes granulats - préparation bleu méthylène" ref="R2.DLCF.DMM.013" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.014_Tableau_Choix_%20tamis.ods" titre="minutes granulats - tableau choix tamis" ref="R2.DLCF.DMM.014" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.003_PV_Essai_Cofrac.ods" titre="ex domaine 23 - modÃ¨le PV essais 2 pages" ref="R2.DLCF.DMM.003" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.004_Feuille_Recept.ods" titre="minutes granulats - feuille rÃ©ception" ref="R2.DLCF.DMM.004" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.005_Minute_Essai_apla_en_refus_tamis_cumule.ods" titre="minutes granulats - apla refus tamis cumulÃ©" ref="R2.DLCF.DMM.005" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.006_Minute_Essai_apla_en_refus_tamis_partiel.ods" titre="minutes granulats - apla refus tamis partiel" ref="R2.DLCF.DMM.006" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.007_Minute_Essai_Bleu_Methylene.ods" titre="minutes granulats - Bleu de mÃ©thylÃ¨ne" ref="R2.DLCF.DMM.007" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.08_Minute_Granulometrie.ods" titre="minutes granulats - GranulomÃ©trie" ref="R2.DLCF.DMM.008" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.009_Minute_Granulo-Mod.ods" titre="minutes granulats - Granulo module fin." ref="R2.DLCF.DMM.009" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.010_Minute_LA.ods" titre="minutes granulats - Los Angeles" ref="R2.DLCF.DMM.010" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.011_Minute_MDE.ods" titre="minutes granulats - MDE" ref="R2.DLCF.DMM.011" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.012_Preparation_bleu_pillulier.ods" titre="minutes granulats - prÃ©paration bleu mÃ©thylÃ¨ne pillulier" ref="R2.DLCF.DMM.012" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.013_Preparation_bleu.ods" titre="minutes granulats - prÃ©paration bleu mÃ©thylÃ¨ne" ref="R2.DLCF.DMM.013" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/minutes/R2.DLCF.DMM.014_Tableau_Choix_%20tamis.ods" titre="minutes granulats - tableau choix tamis" ref="R2.DLCF.DMM.014" norme="COFRAC" iconCls="icon-method" mode="NEW" year='2020'></doc>
 				</type>
 			</type>
 			<type name="enregistrements">
 				<type name="COFRAC">
-                    <doc port="DLCF" link="audits_internes/2019_DLL.pdf" titre="rapport audit interne COFRAC 2019" ref="R2.DLCF.E.039" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF" link="audits_internes/2018_nouveaux_essais_exdomaine3.odt" titre="rapport audit int. essais Kgz+chl ex dom3 COFRAC 2019" ref="R2.DLCF.E.033" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF" link="audits_internes/2018.odt" titre="rapport audit interne COFRAC 2018" ref="R2.DLCF.E.031" norme="COFRAC" mode="NEW" year='2018'></doc>
+					<doc port="DLCF" link="audits_internes/2019_DLL.pdf" titre="rapport audit interne COFRAC 2019" ref="R2.DLCF.E.039" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF" link="audits_internes/2018_nouveaux_essais_exdomaine3.odt" titre="rapport audit int. essais Kgz+chl ex dom3 COFRAC 2019" ref="R2.DLCF.E.033" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF" link="audits_internes/2018.odt" titre="rapport audit interne COFRAC 2018" ref="R2.DLCF.E.031" norme="COFRAC" mode="NEW" year='2018'></doc>
 					<doc port="DLCF" link="audits_internes/2017_MD-JB.odt" titre="rapport audit interne COFRAC 2017" ref="R2.DLCF.E.026" norme="COFRAC" mode="NEW" year='2017'></doc>
 					<doc port="DLCF" link="audits_internes/2016.pdf" titre="rapport audit interne COFRAC mai 2016" ref="R2.DLCF.E.023" norme="COFRAC" mode="NEW" year='2016'></doc>
 					<doc port="DLCF" link="audits_internes/2015_.odt" titre="rapport audit interne COFRAC mai 2015" ref="R2.DLCF.E.022" norme="COFRAC" mode="NEW" year='2015'></doc>
 					<doc port="DLCF" link="audits_internes/2014_DLL_DLA.pdf" titre="rapport audit interne COFRAC mai 2014" ref="R2.DLCF.EM.003" norme="COFRAC"></doc>
 					<doc port="DLCF" link="audits_internes/2013_DLL.pdf" titre="rapport audit interne COFRAC mai 2013" ref="R2.DLCF.E.013" norme="COFRAC"></doc>
-					<doc port="DLCF" link="audits_internes/2012.pdf" titre="rapport audit interne COFRAC 03 février 2012" ref="R2.DLCF.E.004" norme="COFRAC"></doc>
+					<doc port="DLCF" link="audits_internes/2012.pdf" titre="rapport audit interne COFRAC 03 fÃ©vrier 2012" ref="R2.DLCF.E.004" norme="COFRAC"></doc>
 					<doc port="DLCF" link="R2.DLCF.E.016_prog_CIL.odt" titre="programmation des essais inter-laboratoires" ref="R2.DLCF.E.016" norme="COFRAC" mode="NEW" year='2019'></doc>
-					<doc port="DLCF" link="fiche_evol_qualit%C3%A9/DLCF_R2_E_Fiche_evolution_referentiel_LABREF02_09_a_10(1).odt" titre="fiche d'évolution LABREF02v9_10" ref="R2.DLCF.E.019" norme="COFRAC" mode="NEW" year='2016'></doc>
-                    <doc port="DLCF" link="fiche_evol_qualit%C3%A9/DLCF_R2_DM_Fiche_evolution_referentiel_LABREF02r%C3%A9v11(1).odt" titre="fiche d'évolution LABREF02v10_11" ref="R2.DLCF.E.032" norme="COFRAC" mode="NEW" year='2018'></doc>
-                    <doc port="DLCF" link="fiche_evol_qualit%C3%A9/DLCF_R2_DM_Fiche_evolution_referentiel_GENREF10(1).odt" titre="fiche d'évolution nouveau GENREF10" ref="R2.DLCF.E.040" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12350-1.pdf" titre="fiche évol. NFEN12350-1 prlvts béton frais" ref="R2.DLCF.E.041" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-2.pdf" titre="fic. évol. NFEN12390-2 confec.conser.eprouv.p2" ref="R2.DLCF.E.042" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-3.pdf" titre="fic. évol. NFEN12390-3 résitance.eprouv.p3" ref="R2.DLCF.E.043" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF" link="fiche_evol_qualit%C3%A9/DLCF_R2_E_Fiche_evolution_referentiel_LABREF02_09_a_10(1).odt" titre="fiche d'Ã©volution LABREF02v9_10" ref="R2.DLCF.E.019" norme="COFRAC" mode="NEW" year='2016'></doc>
+					<doc port="DLCF" link="fiche_evol_qualit%C3%A9/DLCF_R2_DM_Fiche_evolution_referentiel_LABREF02r%C3%A9v11(1).odt" titre="fiche d'Ã©volution LABREF02v10_11" ref="R2.DLCF.E.032" norme="COFRAC" mode="NEW" year='2018'></doc>
+					<doc port="DLCF" link="fiche_evol_qualit%C3%A9/DLCF_R2_DM_Fiche_evolution_referentiel_GENREF10(1).odt" titre="fiche d'Ã©volution nouveau GENREF10" ref="R2.DLCF.E.040" norme="COFRAC" mode="NEW" year='2019'></doc>
 				</type>
 				<type name="COFRAC SOA">
-                    <doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_2019_DLCF_UT_Beton_VF.pdf" titre="ex domaine 3 - revue 2019" ref="R2.DLCF.E.038" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_ex_domaine3_2018.pdf" titre="ex domaine 3 - revue 2018" ref="R2.DLCF.E.030" norme="COFRAC" mode="NEW" year='2018'></doc>
+					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualitÃ©_COFRAC_2019_DLCF_UT_Beton_VF.pdf" titre="ex domaine 3 - revue 2019" ref="R2.DLCF.E.038" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_ex_domaine3_2018.pdf" titre="ex domaine 3 - revue 2018" ref="R2.DLCF.E.030" norme="COFRAC" mode="NEW" year='2018'></doc>
 					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_2017_DLCF_UT_beton.pdf" titre="ex domaine 3 - revue 2017" ref="R2.DLCF.E.024" norme="COFRAC" mode="NEW" year='2017'></doc>
-					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/DLCF_SOA_Fiche_evolution_norme_NF%20EN%2012390-1.pdf" titre="fiche d'évolution NF EN 12390-1" ref="R2.DLCF.E.006" norme="COFRAC"></doc>
-					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Plan%C3%A9it%C3%A9-eprouvettes_version_2018.odt" titre="notice contrôle 1 matériel COA041" ref="R2.DLCF.E.007" norme="COFRAC" mode="NEW" year='2018'></doc>
-					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Perpendicularit%C3%A9-eprouvettes_version_2018.odt" titre="notice contrôle 2 matériel COA041" ref="R2.DLCF.E.008" norme="COFRAC" mode="NEW" year='2018'></doc>
-					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Dimensions_moules_readyform__version_2015.odt" titre="notice contrôle matériel COA035" ref="R2.DLCF.E.009" norme="COFRAC" mode="NEW" year='2015'></doc>
-					<doc port="DLCF SOA" link="beton_durci/incertitudes/DLCF_SOA_validation_PV_2012.pdf" titre="essais sur béton - vérification formule PV 2012" ref="R2.DLCF.E.010" norme="COFRAC"></doc>
-					<doc port="DLCF SOA" link="beton_durci/incertitudes/R%C3%A9seau_RLPC_Programme_3_guide_incertitudes.pdf" titre="essais sur béton - incertitude - guide de calcul" ref="R2.DLCF.E.014" norme="COFRAC"></doc>
-					<doc port="DLCF SOA" link="beton_durci/incertitudes/CEREMA-DLCF-incertitude-compression-2016.pdf" titre="essais sur béton - évaluation de l'incertitude" ref="R2.DLCF.E.018" norme="COFRAC" mode="NEW" year='2017'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Dapp_notice_verification_vacuometre_COA053.odt" titre="notice vérification vacuomètre COA053" ref="R2.DLCF.E.034" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/incertitudes/Viscosit%C3%A9_dynamique_azote.pdf" titre="calcul viscosité dynamique azote" ref="R2.DLCF.E.035" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF SOA" link="beton_durci/incertitudes/DAPP_validation_hypothese_volume_infini.pdf" titre="DAPP validation hypothèse de volume infini" ref="R2.DLCF.E.036" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-4.pdf" titre="fiche d'Ã©volution NF EN 12390-4" ref="github 2020" norme="COFRAC" mode="NEW" year="2020"></doc>
+					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/DLCF_SOA_Fiche_evolution_norme_NF%20EN%2012390-1.pdf" titre="fiche d'Ã©volution NF EN 12390-1" ref="R2.DLCF.E.006" norme="COFRAC"></doc>
+					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12350-1.pdf" titre="fiche Ã©vol. NFEN12350-1 prlvts bÃ©ton frais" ref="R2.DLCF.E.041" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-2.pdf" titre="fic. Ã©vol. NFEN12390-2 confec.conser.eprouv.p2" ref="R2.DLCF.E.042" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-3.pdf" titre="fic. Ã©vol. NFEN12390-3 rÃ©sitance.eprouv.p3" ref="R2.DLCF.E.043" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Plan%C3%A9it%C3%A9-eprouvettes_version_2018.odt" titre="notice contrÃ´le 1 matÃ©riel COA041" ref="R2.DLCF.E.007" norme="COFRAC" mode="NEW" year='2018'></doc>
+					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Perpendicularit%C3%A9-eprouvettes_version_2018.odt" titre="notice contrÃ´le 2 matÃ©riel COA041" ref="R2.DLCF.E.008" norme="COFRAC" mode="NEW" year='2018'></doc>
+					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Dimensions_moules_readyform__version_2015.odt" titre="notice contrÃ´le matÃ©riel COA035" ref="R2.DLCF.E.009" norme="COFRAC" mode="NEW" year='2015'></doc>
+					<doc port="DLCF SOA" link="beton_durci/incertitudes/DLCF_SOA_validation_PV_2012.pdf" titre="essais sur bÃ©ton - vÃ©rification formule PV 2012" ref="R2.DLCF.E.010" norme="COFRAC"></doc>
+					<doc port="DLCF SOA" link="beton_durci/incertitudes/R%C3%A9seau_RLPC_Programme_3_guide_incertitudes.pdf" titre="essais sur bÃ©ton - incertitude - guide de calcul" ref="R2.DLCF.E.014" norme="COFRAC"></doc>
+					<doc port="DLCF SOA" link="beton_durci/incertitudes/CEREMA-DLCF-incertitude-compression-2016.pdf" titre="essais sur bÃ©ton - Ã©valuation de l'incertitude" ref="R2.DLCF.E.018" norme="COFRAC" mode="NEW" year='2017'></doc>
+					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Dapp_notice_verification_vacuometre_COA053.odt" titre="notice vÃ©rification vacuomÃ¨tre COA053" ref="R2.DLCF.E.034" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/incertitudes/Viscosit%C3%A9_dynamique_azote.pdf" titre="calcul viscositÃ© dynamique azote" ref="R2.DLCF.E.035" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/incertitudes/DAPP_validation_hypothese_volume_infini.pdf" titre="DAPP validation hypothÃ¨se de volume infini" ref="R2.DLCF.E.036" norme="COFRAC" mode="NEW" year='2019'></doc>
 				</type>
 				<type name="COFRAC MI">
-                    <doc port="DLCF MI" link="granulats/revues/2020.odt" titre="ex domaine 23 - revue 2020" ref="github.2020" norme="COFRAC" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2019.odt" titre="ex domaine 23 - revue 2019" ref="R2.DLCF.E.037" norme="COFRAC" mode="NEW" year='2019'></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2018.odt" titre="ex domaine 23 - revue 2018" ref="R2.DLCF.E.029" norme="COFRAC" mode="NEW" year='2018'></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2017.odt" titre="ex domaine 23 - revue 2017" ref="R2.DLCF.E.028" norme="COFRAC" mode="NEW" year='2017'></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2016.odt" titre="ex domaine 23 - revue 2016" ref="R2.DLCF.E.025" norme="COFRAC" mode="NEW" year='2017'></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2015.pdf" titre="ex domaine 23 - revue 2015" ref="R2.DLCF.E.020" norme="COFRAC" mode="NEW" year='2015'></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2014.pdf" titre="ex domaine 23 - revue 2014" ref="R2.DLCF.E.017" norme="COFRAC"></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2013.pdf" titre="ex domaine 23 - revue 2013" ref="R2.DLCF.E.011" norme="COFRAC"></doc>
-                    <doc port="DLCF MI" link="granulats/revues/2012.pdf" titre="ex domaine 23 - revue 2012" ref="R2.DLCF.E.002" norme="COFRAC"></doc>
-                    <doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_Cofrac_Rapport_Incertitudes_2020_V3_sign%C3%A9e.pdf" titre="essais granulats - fact. d'influence" ref="R2.DLCF.E.027" norme="COFRAC" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_rapport_incertitudes_2015_vf.pdf" titre="essais granulats - facteurs d'influence (old)" ref="R2.DLCF.E.001" norme="COFRAC" mode="NEW" year='2016'></doc>
-                    <doc port="DLCF MI" link="granulats/R2.DLCF.E.005_Veille_normative_MI.ods" titre="roches et granulats - normes applicables (veille normative)" ref="R2.DLCF.E.005" norme="COFRAC" mode="NEW" year='2020'></doc>
-                    <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_933-9_fiche_evolution_ref_oct_2013.pdf" titre="fiche d'évolution NF EN 933-9" ref="R2.DLCF.E.012" norme="COFRAC"></doc>
-                    <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_FD%20P%2018-663_r%C3%A9v1.pdf" titre="fiche d'évolution FD P 18-663" ref="R2.DLCF.E.015" norme="COFRAC" mode="NEW" year='2016'></doc>
-                    <doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'évolution NF-EN 1097-2 avril 2020" ref="github 2020" mode="NEW" year="2020"></doc>
-                    <doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DterCE_Cofrac_Eval_Fournisseurs_prog_23_2013_vf.pdf" titre="ex domaine 23 - évaluation des fournisseurs 2013" ref="R2.DLCF.EM.002" norme="COFRAC"></doc>
+					<doc port="DLCF MI" link="granulats/revues/2020.odt" titre="ex domaine 23 - revue 2020" ref="github.2020" norme="COFRAC" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2019.odt" titre="ex domaine 23 - revue 2019" ref="R2.DLCF.E.037" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2018.odt" titre="ex domaine 23 - revue 2018" ref="R2.DLCF.E.029" norme="COFRAC" mode="NEW" year='2018'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2017.odt" titre="ex domaine 23 - revue 2017" ref="R2.DLCF.E.028" norme="COFRAC" mode="NEW" year='2017'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2016.odt" titre="ex domaine 23 - revue 2016" ref="R2.DLCF.E.025" norme="COFRAC" mode="NEW" year='2017'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2015.pdf" titre="ex domaine 23 - revue 2015" ref="R2.DLCF.E.020" norme="COFRAC" mode="NEW" year='2015'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2014.pdf" titre="ex domaine 23 - revue 2014" ref="R2.DLCF.E.017" norme="COFRAC"></doc>
+					<doc port="DLCF MI" link="granulats/revues/2013.pdf" titre="ex domaine 23 - revue 2013" ref="R2.DLCF.E.011" norme="COFRAC"></doc>
+					<doc port="DLCF MI" link="granulats/revues/2012.pdf" titre="ex domaine 23 - revue 2012" ref="R2.DLCF.E.002" norme="COFRAC"></doc>
+					<doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_Cofrac_Rapport_Incertitudes_2020_V3_sign%C3%A9e.pdf" titre="essais granulats - fact. d'influence" ref="R2.DLCF.E.027" norme="COFRAC" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/facteurs_influence/DLCF_MI_rapport_incertitudes_2015_vf.pdf" titre="essais granulats - facteurs d'influence (old)" ref="R2.DLCF.E.001" norme="COFRAC" mode="NEW" year='2016'></doc>
+					<doc port="DLCF MI" link="granulats/R2.DLCF.E.005_Veille_normative_MI.ods" titre="roches et granulats - normes applicables (veille normative)" ref="R2.DLCF.E.005" norme="COFRAC" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_933-9_fiche_evolution_ref_oct_2013.pdf" titre="fiche d'Ã©volution NF EN 933-9" ref="R2.DLCF.E.012" norme="COFRAC"></doc>
+					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_FD%20P%2018-663_r%C3%A9v1.pdf" titre="fiche d'Ã©volution FD P 18-663" ref="R2.DLCF.E.015" norme="COFRAC" mode="NEW" year='2016'></doc>
+					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'Ã©volution NF-EN 1097-2 avril 2020" ref="github 2020" mode="NEW" year="2020"></doc>
+					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DterCE_Cofrac_Eval_Fournisseurs_prog_23_2013_vf.pdf" titre="ex domaine 23 - Ã©valuation des fournisseurs 2013" ref="R2.DLCF.EM.002" norme="COFRAC"></doc>
 					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DLCF_MI_Liste_fournisseurs_consommables_evaluation.ods" titre="ex domaine 23 - fournisseurs et fournitures critiques" ref="R2.DLCF.EM.004" norme="COFRAC" mode="NEW" year='2020'></doc>
 				</type>
 			</type>
@@ -257,22 +257,22 @@
 	</pro>
 	<pro name="S1 - COMPETENCES" base="ROOT">
 		<port name="DTERCE">
-			<type name="procédures">
-				<doc port="DTERCE" titre="gestion des compétences" ref="S1.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2016'></doc>
+			<type name="procÃ©dures">
+				<doc port="DTERCE" titre="gestion des compÃ©tences" ref="S1.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2016'></doc>
 				<doc port="DTERCE" titre="accueil des nvx arrivants" ref="S1.P.002" norme="QSE" iconCls="icon-event"></doc>
 				<doc port="DTERCE" titre="habilitation et qualification" ref="S1.P.004" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
 			</type>
 			<type name="instructions">
 				<doc port="DTERCE" titre="compagnonnage" ref="S1.I.001" norme="QSE" iconCls="icon-pkg"></doc>
-				<doc port="DTERCE" titre="recueil des besoins - évaluations des formations" ref="S1.I.002" norme="QSE" iconCls="icon-pkg"></doc>
-				<doc port="DTERCE" titre="suivi des habilitations santé et sécurité au travail" ref="S1.I.003" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
-				<doc port="DTERCE" titre="rémunération de la formation" ref="S1.I.004" norme="QSE" iconCls="icon-pkg"></doc>
+				<doc port="DTERCE" titre="recueil des besoins - Ã©valuations des formations" ref="S1.I.002" norme="QSE" iconCls="icon-pkg"></doc>
+				<doc port="DTERCE" titre="suivi des habilitations santÃ© et sÃ©curitÃ© au travail" ref="S1.I.003" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE" titre="rÃ©munÃ©ration de la formation" ref="S1.I.004" norme="QSE" iconCls="icon-pkg"></doc>
 			</type>
 		</port>
 	</pro>
 	<pro name="S2 - CONNAISSANCE" base="ROOT">
 		<port name="DTERCE">
-			<type name="procédures">
+			<type name="procÃ©dures">
 				<doc port="DTERCE" titre="archivage des affaires" ref="S2.P.002" norme="QSE" iconCls="icon-event" mode="NEW" year='2019'></doc>
 			</type>
 			<type name="instructions">
@@ -282,24 +282,24 @@
 		</port>
 		<port name="DLCF">
 			<type name="instructions">
-				<doc port="DLCF" titre="application de la procédure archivage au DLCF" ref="S2.IM.006" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2016'></doc>
+				<doc port="DLCF" titre="application de la procÃ©dure archivage au DLCF" ref="S2.IM.006" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2016'></doc>
 			</type>
 		</port>
 	</pro>
 	<pro name="S3 - ACHATS" base="ROOT">
 		<port name="DTERCE">
-			<type name="procédures">
+			<type name="procÃ©dures">
 				<doc port="DTERCE" titre="achats" ref="S3.P.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2015'></doc>
 				<doc port="DTERCE" titre="programmation d'une carte achat" ref="S3.P.002" norme="QSE" iconCls="icon-event" mode="NEW" year='2015'></doc>
-				<doc port="DTERCE" titre="évaluation des fournisseurs" ref="S3.P.003" norme="QSE" iconCls="icon-event"></doc>
+				<doc port="DTERCE" titre="Ã©valuation des fournisseurs" ref="S3.P.003" norme="QSE" iconCls="icon-event"></doc>
 				<doc port="DTERCE" titre="FIP" ref="S3.FIP.001" norme="QSE" iconCls="icon-event" mode="NEW" year='2016'></doc>
 			</type>
 			<type name="enregistrements">
-				<doc port="DTERCE" titre="règlement interne utilisation carte achat" ref="S3.E.002" norme="QSE" mode="NEW" year='2015'></doc>
+				<doc port="DTERCE" titre="rÃ¨glement interne utilisation carte achat" ref="S3.E.002" norme="QSE" mode="NEW" year='2015'></doc>
 			</type>
 		</port>
 		<port name="DLCF">
-			<type name="documents modèles">
+			<type name="documents modÃ¨les">
 				<doc port="DLCF" titre="analyse des offres" ref="S3.DMM.001" norme="QSE" iconCls="icon-method"></doc>
 				<doc port="DLCF" titre="bon de commande carte achat" ref="S3.DMM.002" norme="QSE" iconCls="icon-method"></doc>
 			</type>
@@ -308,12 +308,12 @@
 	<pro name="S4 - EQUIPEMENTS ET LOGISTIQUE" base="ROOT">
 		<port name="DTERCE">
 			<type name="instructions">
-				<doc port="DTERCE" titre="Utilisation des véhicules de service" ref="S4.I.011" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2015'></doc>
+				<doc port="DTERCE" titre="Utilisation des vÃ©hicules de service" ref="S4.I.011" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2015'></doc>
 				<doc port="DTERCE" titre="Inventaire physique" ref="S4.I.012" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2015'></doc>
 			</type>
 		</port>
 		<port name="INFORMATIQUE">
-			<type name="procédures">
+			<type name="procÃ©dures">
 				<doc port="DTERCE INFORMATIQUE" titre="support informatique" ref="S4.P.001" norme="QSE" iconCls="icon-event"></doc>
 			</type>
 			<type name="instructions">
@@ -321,16 +321,16 @@
 			</type>
 		</port>
 		<port name="METROLOGIE">
-			<type name="procédures">
-				<doc port="DTERCE METRO" titre="maîtrise des équipements de contrôle et de mesure" ref="S4.P.002" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
+			<type name="procÃ©dures">
+				<doc port="DTERCE METRO" titre="maÃ®trise des Ã©quipements de contrÃ´le et de mesure" ref="S4.P.002" norme="QSE" iconCls="icon-event" mode="NEW" year='2018'></doc>
 			</type>
 			<type name="instructions">
-				<doc port="DTERCE METRO" titre="fonctionnement des cellules de métrologie" ref="S4.I.004" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
+				<doc port="DTERCE METRO" titre="fonctionnement des cellules de mÃ©trologie" ref="S4.I.004" norme="QSE" iconCls="icon-pkg" mode="NEW" year='2018'></doc>
 			</type>
 			<type name="enregistrements">
 				<doc port="DTERCE METRO" titre="habilitation des agents aux essais" ref="S4.E.003" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DTERCE METRO" titre="documents en commun du Cerema" ref="S4.E.005" norme="QSE" mode="NEW" year='2017'></doc>
-				<doc port="DTERCE METRO" titre="réunion des métrologues DTERCE" ref="S4.E.008" norme="QSE" mode="NEW" year='2017'></doc>
+				<doc port="DTERCE METRO" titre="rÃ©union des mÃ©trologues DTERCE" ref="S4.E.008" norme="QSE" mode="NEW" year='2017'></doc>
 			</type>
 		</port>
 	</pro>
