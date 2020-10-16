@@ -122,7 +122,7 @@ $("#folders_view").on("click",".child",function(){
     $(this).css("background-color",lg);
     
     $("#files_view").html("");
-    $("#files_view").append("<table>");
+    $("#files_view").append("<table><tr><td colspan=2>"+bc+"</td></tr>");
     var subtree = "";
     
     var apiurl = gauf1+"/"+user+"/"+repo+"/"+gauf2+"/"+value;
@@ -139,8 +139,7 @@ $("#folders_view").on("click",".child",function(){
             subtree+="<div class=child id=folder"+element["sha"]+" value='"+meta.level+"' bc="+elementbc+">"+meta.tab+"|_"+element["path"]+"</div>";
             subtree+="<div id=child"+element["sha"]+"></div>";
           } else {
-            // we've got a file
-            
+            // we've got a file  
             // we interrogate the API to catch last commit
             var lastcommiturl = gauf1+"/"+user+"/"+repo+"/commits?path="+encodeURI(elementbc);
             //console.log(lastcommiturl);
