@@ -82,7 +82,7 @@ function geninitialview()
             //console.log(data);
             var tree = "";
             var files=[];
-            files.push("<table>");
+            files.push("<table><tr><td>Contenus racine</td></tr>");
             tree="<div class=root id=test>RACINE GITHUB</div>";
             data.forEach(function(element){
               if (element["type"]==="dir") {
@@ -122,7 +122,7 @@ $("#folders_view").on("click",".child",function(){
     $(this).css("background-color",lg);
     
     $("#files_view").html("");
-    $("#files_view").append("<table><tr><td colspan=2>contenu</td></tr>");
+    $("#files_view").append("<table><tr><td colspan=2>Contenus "+bc+"</td></tr>");
     var subtree = "";
     
     var apiurl = gauf1+"/"+user+"/"+repo+"/"+gauf2+"/"+value;
