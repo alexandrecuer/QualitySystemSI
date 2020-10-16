@@ -10,6 +10,47 @@
 
 </head>
 <body>
+<div id="info">
+<h1>Documentation ISO/COFRAC - DLCF</h1>
+<font face=arial size=2>
+PREREQUIS pour certains documents: CONNEXION <a href=http://gedoq7.cete-lyon.i2/ennov/cete69doc target="_blank">GedOQ</a> ETABLIE<br>
+LOGIN : visudlcf - pas de mot de passe<br>
+Une fois la connection établie dans un nouvel onglet, fermer le pour revenir à l'explorateur documentaire ci présent
+</font>
+</div>
+<br><br><b>Pour maintenir les documents sur Github : </b><a href="http://github.com/alexandrecuer/gedoq">http://github.com/alexandrecuer/gedoq</a><br><br>
+<div>
+	<a href=doc/infos_métrologiques_circuit.pdf target="_blank">circuit de l'information métrologique au DLCF</a> |
+	<a href=doc/traitement_réclamations.pdf target="_blank">logigramme de traitement des réclamations au DLCF</a> |
+	<a href="https://cerema.app.box.com/folder/57797962566">documents COESION/COFRAC cerema</a> |
+	<a href=cofrac.xml target="_blank">Suivi des documents COFRAC opposables</a> |
+	<a href=doc/Cerema-ISO17025_version2017_transition_plan-Cerema_CF_V1.ods target="_blank">plan de transition ISO17025v2017</a> |
+	<a href=docs.xml target="_blank">Imprimer la liste des documents qualité</a><br><br>
+	<a href=http://ceremacf.herokuapp.com>COLIBRI : outil de suivi des enquêtes satisfaction et dématérialisation des livrables</a>
+</div>
+<br><br>
+<button id="loc">Voir les liens locaux</button>
+<div id="extra"></div>
+<br><br>
+<div id="filter">
+    <input type=text size=30 id="filternorme" placeholder="norme?QSE?COFRAC?"></input>&nbsp;
+    <input type=text size=30 id="filterpro" placeholder="processus?M1?M2?typedoc?I?E?"></input>&nbsp;
+    <input type=text size=30 id="filterport" placeholder="portée?DLCF?SOA?MI?QSE?"></input>
+
+    <div id="selecta"></div>
+</div>
+
+<div>
+    <h3>Légende</h3>
+    <img src="lib/deprecated/ext/resources/class.gif" >Manuel ou Plan qualité<br>
+    <img src="lib/deprecated/ext/resources/event.gif" >Procèdure<br>
+    <img src="lib/deprecated/ext/resources/pkg.gif" >Instruction<br>
+    <img src="lib/deprecated/ext/resources/method.gif" >Document modèle<br>
+    <img src="lib/deprecated/ext/resources/prop.gif" >Enregistrement<br><br><br>
+</div>
+
+<div id="gedoq"></div>
+
 <div class="container-fluid">
   <div class="row flex-xl-nowrap">
     <div class="col-sm" id="folders_view"></div>
