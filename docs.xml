@@ -86,7 +86,6 @@
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2016" ref="M2.EM.054" norme="QSE" mode="NEW" year='2016'></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - septembre 2017" ref="M2.EM.061" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2018" ref="M2.EM.066" norme="QSE" mode="NEW" year='2018'></doc>
-				<doc port="DLCF" link="audits_internes/HSE/Cerema_CE_CR_audit_interne_DLCF_17102019.odt" titre="rapport audit interne QSE - DLCF - octobre 2019" ref="github.2020" norme="QSE" mode="NEW" year='2019'></doc>
 			</type>
 		</port>
 	</pro>
@@ -95,7 +94,7 @@
             <type name="procédures">
 				<doc port="DTERCE" titre="Cadrage du potentiel de production du Cerema Centre-Est" ref="R1.Prog.P.001" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DTERCE" titre="Programmation nationale" ref="R1.Prog.P.002" norme="QSE" mode="NEW" year='2017'></doc>
-                <doc port="DTERCE" titre="Programmation locale" ref="R1.Prog.P.003" norme="QSE" mode="NEW" year='2017'></doc>
+                                <doc port="DTERCE" titre="Programmation locale" ref="R1.Prog.P.003" norme="QSE" mode="NEW" year='2017'></doc>
 			</type>
         </port>
     </pro>
@@ -122,9 +121,6 @@
 			</type>
 		</port>
 		<port name="DLCF">
-			<type name="procédures">
-				<doc port="DLCF" link="R2.DLCF.P.001_annexe_specifique_COFRAC.odt" titre="annexe spécifique COFRAC" ref="R2.DLCF.P.001" norme="COFRAC" iconCls="icon-event" mode="NEW" year='2019'></doc>
-			</type>
 			<type name="instructions">
 				<type name="QSE">
 					<doc port="DLCF QSE" titre="exposition au bruit" ref="R2.DLCF.I.010" norme="QSE" iconCls="icon-pkg"></doc>
@@ -163,9 +159,6 @@
 				<type name="QSE GCM">
 					<doc port="DLCF QSE GCM" titre="plan de prévention plate-forme  brouillard-pluie" ref="R2.DLCF.DM.008" norme="QSE" iconCls="icon-method"></doc>
 				</type>
-				<type name="COFRAC">
-					<doc port="DLCF" link="R2.DLCF.DM.005_Fiche_evolution_referentiel.odt" titre="fiche d'évolution d'un référentiel" ref="R2.DLCF.DM.005" norme="COFRAC" iconCls="icon-method"></doc>
-				</type>	
 			</type>
 		</port>
 	</pro>
