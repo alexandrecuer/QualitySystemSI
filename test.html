@@ -152,7 +152,7 @@ $("#folders_view").on("click",".child",function(){
                 lastupdate = commit[0]["commit"]["author"]["date"].substr(0,10);;
                 //console.log(lastupdate);
                 //console.log(mel);
-                var line = "<tr><td>"+lastupdate+"</td><a title="+mel+" href="+url+encodeURI(elementbc)+">"+element["path"]+"</a></td></tr>";
+                var line = "<tr><td>"+lastupdate+"</td><td><a title="+mel+" href="+url+encodeURI(elementbc)+">"+element["path"]+"</a></td></tr>";
                 $("#files_view").append(line);
               }
             });
