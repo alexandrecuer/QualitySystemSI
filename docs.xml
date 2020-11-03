@@ -6,7 +6,6 @@
 			<doc port="DTERCE" titre="manuel QSE du Cerema Centre-Est" ref="DG.MQSE.001"  norme="QSE" iconCls="icon-cls" mode="NEW" year='2017'></doc>
 		</port>
 		<port name="DLCF">
-			<doc port="DLCF" titre="plan qualité du DLCF" ref="DG.PQSE.005" norme="QSE" iconCls="icon-cls" mode="NEW" year='2018'></doc>
 			<doc port="DLCF" titre="politique qualité DLCF - engagement direction" ref="DG.PQSE.006" norme="QSE" iconCls="icon-cls" mode="NEW" year='2019'></doc>
 		</port>
 	</pro>
