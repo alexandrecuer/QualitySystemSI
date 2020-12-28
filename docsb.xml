@@ -232,6 +232,9 @@
 					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Dapp_notice_verification_vacuometre_COA053.odt" titre="notice vérification vacuomètre COA053" ref="R2.DLCF.E.034" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/incertitudes/Viscosit%C3%A9_dynamique_azote.pdf" titre="calcul viscosité dynamique azote" ref="R2.DLCF.E.035" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/incertitudes/DAPP_validation_hypothese_volume_infini.pdf" titre="DAPP validation hypothèse de volume infini" ref="R2.DLCF.E.036" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/evaluation_fournisseurs/SOA_2019_evaluation_fournisseurs_17025.odt" titre="ex domaine 3 - évaluation de fournisseurs 2019" ref="github2020" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/evaluation_fournisseurs/SOA_2020(en_cours)_evaluation_fournisseurs_17025.odt" titre="ex domaine 3 - évaluation de fournisseurs 2020" ref="github2020" norme="COFRAC" mode="NEW" year='2020'></doc>
+					
 				</type>
 				<type name="COFRAC MI">
 					<doc port="DLCF MI" link="granulats/revues/2020.odt" titre="ex domaine 23 - revue 2020" ref="github.2020" norme="COFRAC" mode="NEW" year='2020'></doc>
