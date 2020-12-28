@@ -86,7 +86,7 @@
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2016" ref="M2.EM.054" norme="QSE" mode="NEW" year='2016'></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - septembre 2017" ref="M2.EM.061" norme="QSE" mode="NEW" year='2017'></doc>
 				<doc port="DLCF" titre="rapport audit interne QSE - DLCF - octobre 2018" ref="M2.EM.066" norme="QSE" mode="NEW" year='2018'></doc>
-				<doc port="DLCF" link="audits_internes/HSE/Cerema_CE_CR_audit_interne_DLCF_17102019.odt" titre="rapport audit interne QSE - DLCF - octobre 2019" ref="github.2020" norme="QSE" mode="NEW" year='2019'></doc>
+				<doc port="DLCF" link="audits_internes/HSE/Cerema_CE_CR_audit_interne_DLCF_17102019.odt" titre="rapport audit interne QSE - DLCF - octobre 2019" ref="Cerema_CE_CR_audit_interne_DLCF_17102019.odt" norme="QSE" mode="NEW" year='2019'></doc>
 			</type>
 		</port>
 	</pro>
@@ -218,7 +218,7 @@
 					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualité_COFRAC_2019_DLCF_UT_Beton_VF.pdf" titre="ex domaine 3 - revue 2019" ref="R2.DLCF.E.038" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_ex_domaine3_2018.pdf" titre="ex domaine 3 - revue 2018" ref="R2.DLCF.E.030" norme="COFRAC" mode="NEW" year='2018'></doc>
 					<doc port="DLCF SOA" link="beton_durci/revues/revue_qualit%C3%A9_COFRAC_2017_DLCF_UT_beton.pdf" titre="ex domaine 3 - revue 2017" ref="R2.DLCF.E.024" norme="COFRAC" mode="NEW" year='2017'></doc>
-					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-4.pdf" titre="fiche d'évolution NF EN 12390-4" ref="github 2020" norme="COFRAC" mode="NEW" year="2020"></doc>
+					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-4.pdf" titre="fiche d'évolution NF EN 12390-4" ref="COFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-4.pdf" norme="COFRAC" mode="NEW" year="2020"></doc>
 					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/DLCF_SOA_Fiche_evolution_norme_NF%20EN%2012390-1.pdf" titre="fiche d'évolution NF EN 12390-1" ref="R2.DLCF.E.006" norme="COFRAC"></doc>
 					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12350-1.pdf" titre="fiche évol. NFEN12350-1 prlvts béton frais" ref="R2.DLCF.E.041" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/fiche_evol_referentiel/COCFRAC_SOA_Fiche_evolution_referentiel_NFEN12390-2.pdf" titre="fic. évol. NFEN12390-2 confec.conser.eprouv.p2" ref="R2.DLCF.E.042" norme="COFRAC" mode="NEW" year='2019'></doc>
@@ -232,12 +232,12 @@
 					<doc port="DLCF SOA" link="beton_durci/notices_contr%C3%B4le/Dapp_notice_verification_vacuometre_COA053.odt" titre="notice vérification vacuomètre COA053" ref="R2.DLCF.E.034" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/incertitudes/Viscosit%C3%A9_dynamique_azote.pdf" titre="calcul viscosité dynamique azote" ref="R2.DLCF.E.035" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF SOA" link="beton_durci/incertitudes/DAPP_validation_hypothese_volume_infini.pdf" titre="DAPP validation hypothèse de volume infini" ref="R2.DLCF.E.036" norme="COFRAC" mode="NEW" year='2019'></doc>
-					<doc port="DLCF SOA" link="beton_durci/evaluation_fournisseurs/SOA_2019_evaluation_fournisseurs_17025.odt" titre="ex domaine 3 - évaluation de fournisseurs 2019" ref="github2020" norme="COFRAC" mode="NEW" year='2019'></doc>
-					<doc port="DLCF SOA" link="beton_durci/evaluation_fournisseurs/SOA_2020(en_cours)_evaluation_fournisseurs_17025.odt" titre="ex domaine 3 - évaluation de fournisseurs 2020" ref="github2020" norme="COFRAC" mode="NEW" year='2020'></doc>
+					<doc port="DLCF SOA" link="beton_durci/evaluation_fournisseurs/SOA_2019_evaluation_fournisseurs_17025.odt" titre="ex domaine 3 - évaluation de fournisseurs 2019" ref="SOA_2019_evaluation_fournisseurs_17025.odt" norme="COFRAC" mode="NEW" year='2019'></doc>
+					<doc port="DLCF SOA" link="beton_durci/evaluation_fournisseurs/SOA_2020(en_cours)_evaluation_fournisseurs_17025.odt" titre="ex domaine 3 - évaluation de fournisseurs 2020" ref="SOA_2020(en_cours)_evaluation_fournisseurs_17025.odt" norme="COFRAC" mode="NEW" year='2020'></doc>
 					
 				</type>
 				<type name="COFRAC MI">
-					<doc port="DLCF MI" link="granulats/revues/2020.odt" titre="ex domaine 23 - revue 2020" ref="github.2020" norme="COFRAC" mode="NEW" year='2020'></doc>
+					<doc port="DLCF MI" link="granulats/revues/2020.odt" titre="ex domaine 23 - revue 2020" ref="2020.odt" norme="COFRAC" mode="NEW" year='2020'></doc>
 					<doc port="DLCF MI" link="granulats/revues/2019.odt" titre="ex domaine 23 - revue 2019" ref="R2.DLCF.E.037" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF MI" link="granulats/revues/2018.odt" titre="ex domaine 23 - revue 2018" ref="R2.DLCF.E.029" norme="COFRAC" mode="NEW" year='2018'></doc>
 					<doc port="DLCF MI" link="granulats/revues/2017.odt" titre="ex domaine 23 - revue 2017" ref="R2.DLCF.E.028" norme="COFRAC" mode="NEW" year='2017'></doc>
@@ -251,7 +251,7 @@
 					<doc port="DLCF MI" link="granulats/R2.DLCF.E.005_Veille_normative_MI.ods" titre="roches et granulats - normes applicables (veille normative)" ref="R2.DLCF.E.005" norme="COFRAC" mode="NEW" year='2020'></doc>
 					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_933-9_fiche_evolution_ref_oct_2013.pdf" titre="fiche d'évolution NF EN 933-9" ref="R2.DLCF.E.012" norme="COFRAC"></doc>
 					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_FD%20P%2018-663_r%C3%A9v1.pdf" titre="fiche d'évolution FD P 18-663" ref="R2.DLCF.E.015" norme="COFRAC" mode="NEW" year='2016'></doc>
-					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'évolution NF-EN 1097-2 avril 2020" ref="github 2020" mode="NEW" year="2020"></doc>
+					<doc port="DLCF MI" link="granulats/fiche_evol_referentiel/DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" titre="fiche d'évolution NF-EN 1097-2 avril 2020" ref="DLCF_Fiche_evolution_ref_NFEN1097-2_2020_10_01.pdf" mode="NEW" year="2020"></doc>
 					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DterCE_Cofrac_Eval_Fournisseurs_prog_23_2013_vf.pdf" titre="ex domaine 23 - évaluation des fournisseurs 2013" ref="R2.DLCF.EM.002" norme="COFRAC"></doc>
 					<doc port="DLCF MI" link="granulats/evaluation_fournisseurs/DLCF_MI_Liste_fournisseurs_consommables_evaluation.ods" titre="ex domaine 23 - fournisseurs et fournitures critiques" ref="R2.DLCF.EM.004" norme="COFRAC" mode="NEW" year='2020'></doc>
 				</type>
