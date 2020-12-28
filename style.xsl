@@ -31,7 +31,6 @@ td	{padding: 0px 0px 0px 0px;}
 									<table border='0' cellspacing='1' bgcolor='black'>
 									<xsl:for-each select="doc">
 										<tr>
-                                            <xsl:if test="contains(@ref,'P')"><td><img src="ext/resources/event.gif"></img></td></xsl:if>
 											<td bgcolor="orange"><xsl:value-of select="@ref" /></td>
 											<td bgcolor="#FFFCCC"><xsl:value-of select="@titre" /></td>
 											<td bgcolor="#FFFCCC"><b><font color="green"><xsl:value-of select="@year" /></font></b></td>
