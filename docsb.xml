@@ -199,6 +199,7 @@
 			</type>
 			<type name="enregistrements">
 				<type name="COFRAC">
+                    <doc port="DLCF" link="audits_internes/2020_audit_interne_17025_PBCB.odt" titre="rapport audit interne COFRAC 2020 (provisoire)" ref="2020_audit_interne_17025_PBCB.odt" norme="COFRAC" mode="NEW" year='2020'></doc>
 					<doc port="DLCF" link="audits_internes/2019_DLL.pdf" titre="rapport audit interne COFRAC 2019" ref="R2.DLCF.E.039" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF" link="audits_internes/2018_nouveaux_essais_exdomaine3.odt" titre="rapport audit int. essais Kgz+chl ex dom3 COFRAC 2019" ref="R2.DLCF.E.033" norme="COFRAC" mode="NEW" year='2019'></doc>
 					<doc port="DLCF" link="audits_internes/2018.odt" titre="rapport audit interne COFRAC 2018" ref="R2.DLCF.E.031" norme="COFRAC" mode="NEW" year='2018'></doc>
