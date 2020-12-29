@@ -123,10 +123,9 @@
 		</port>
 		<port name="DLCF">
 			<type name="procédures">
-				<doc port="DLCF" link="R2.DLCF.P.001_annexe_specifique_COFRAC.odt" titre="annexe spécifique COFRAC" ref="R2.DLCF.P.001" norme="COFRAC" iconCls="icon-event" mode="NEW" year='2019'></doc>
+				<doc port="DLCF" link="R2.DLCF.P.001_annexe_specifique_COFRAC.odt" titre="annexe spécifique COFRAC" ref="R2.DLCF.P.001" norme="COFRAC" iconCls="icon-event" mode="NEW" year='2020'></doc>
 			</type>
 			<type name="instructions">
-				<doc port="DLCF" titre="application procédure gestion d'une affaire R123" ref="R2.DLCF.I.001" norme="QSE" iconCls="icon-pkg"></doc>
 				<type name="QSE">
 					<doc port="DLCF QSE" titre="exposition au bruit" ref="R2.DLCF.I.010" norme="QSE" iconCls="icon-pkg"></doc>
 					<doc port="DLCF QSE" titre="entretien périodique du matériel d'éclairage" ref="R2.DLCF.I.013" norme="QSE" iconCls="icon-pkg"></doc>
