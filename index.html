@@ -183,7 +183,7 @@ $("#folders_view").on("click",".child",function(){
             subtree+="<div id=child"+element["sha"]+"></div>";
           } else {
             // we've got a file
-            var line = "<tr><td><a title="+mel+" href="+url+encodeURI(elementbc)+">"+element["path"]+"</a></td></tr>";
+            var line = "<tr><td><a href="+url+encodeURI(elementbc)+">"+element["path"]+"</a></td></tr>";
 	    $("#files_view").append(line);
             /*
             // we interrogate the API to catch last commit
