@@ -182,7 +182,10 @@ $("#folders_view").on("click",".child",function(){
             subtree+="<div class=child id=folder"+element["sha"]+" value='"+meta.level+"' bc="+elementbc+">"+meta.tab+"|_"+element["path"]+"</div>";
             subtree+="<div id=child"+element["sha"]+"></div>";
           } else {
-            // we've got a file  
+            // we've got a file
+            var line = "<tr><td><a title="+mel+" href="+url+encodeURI(elementbc)+">"+element["path"]+"</a></td></tr>";
+	    $("#files_view").append(line);
+            /*
             // we interrogate the API to catch last commit
             var lastcommiturl = gauf1+"/"+user+"/"+repo+"/commits?path="+encodeURI(elementbc);
             //console.log(lastcommiturl);
@@ -199,6 +202,7 @@ $("#folders_view").on("click",".child",function(){
                 $("#files_view").append(line);
               }
             });
+	    */
           };
         });
         $("#files_view").append("<table>");
