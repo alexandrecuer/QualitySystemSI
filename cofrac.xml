@@ -5,6 +5,7 @@
 	<port name="Document généraux de référence">
 	    <doc titre="Statuts du COFRAC" version="#10 - 06/2017" link='GEN-REF-01'></doc>
             <doc titre="Règlement intérieur du COFRAC" version="#05 - 06/2017" link='GEN-REF-02'></doc>
+	    <doc titre="Traçabilité des résultats de mesure – Politique du Cofrac et modalités d’évaluation" version="#00" link='GEN-REF-10'></doc>
             <doc titre="Règles générales pour la référence à l'accréditation et aux accords de reconnaissance internationaux" version="#08" link='GEN-REF-11'></doc>
 	</port>
         <port name="Procédures">
@@ -18,6 +19,7 @@
         <port name="LABREF">
             <doc titre="Réglement particulier de la section Laboratoires" version="#10" link='LAB-REF-00'></doc>
             <doc titre="Exigences pour l'accréditation des laboratoires selon la norme NF EN ISO/IEC 17025:2017" version="#13" link='LAB-REF-02-(2017)'></doc>
+	    <doc titre="Recommandations pour la mise en œuvre de la norme NF EN ISO/IEC 17025 en vue de l’accréditation des Laboratoires" version="#01" link="LAB-GTA-86"></doc>
             <doc titre="Règlement de fonctionnement des commissions" version="#07 - 11/2018 " link='LAB-REF-03'></doc>
             <doc titre="Règlement d'accréditation" version=" #12" link='LAB-REF-05'></doc>
             <doc titre="Frais d'accréditation" version="#14" link='LAB-REF-06'></doc>
